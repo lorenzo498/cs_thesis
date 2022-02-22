@@ -1,0 +1,2 @@
+osource "/Users/lorenzobrancaleoni/Downloads/sdk-nrf-lpuart_using_normal_uart/samples/peripheral/lpuart/boards/shields/*/Kconfig.defconfig"
+osource "/opt/nordic/ncs/v1.7.1/nrf/boards/shields/*/Kconfig.defconfig"
