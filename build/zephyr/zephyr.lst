@@ -385,7 +385,7 @@ static void uart_callback(const struct device *dev,
      490:	00000603 	.word	0x00000603
      494:	00000611 	.word	0x00000611
      498:	00000611 	.word	0x00000611
-	case UART_TX_DONE:
+
 		// LOG_INF("Tx sent %d bytes", evt->data.tx.len);
 		break;
 
@@ -444,10 +444,10 @@ static void uart_callback(const struct device *dev,
      512:	e07e      	b.n	612 <CONFIG_NRF_MODEM_SHMEM_CTRL_SIZE+0x12a>
 
 	case UART_RX_RDY:
-			printk("%s\n", evt->data.tx.buf);
+			printk("%s\n", evt->data.rx);
      514:	68bb      	ldr	r3, [r7, #8]
-     516:	685b      	ldr	r3, [r3, #4]
-     518:	4619      	mov	r1, r3
+     516:	3304      	adds	r3, #4
+     518:	cb0e      	ldmia	r3, {r1, r2, r3}
      51a:	4842      	ldr	r0, [pc, #264]	; (624 <CONFIG_NRF_MODEM_SHMEM_CTRL_SIZE+0x13c>)
      51c:	f00f fbaa 	bl	fc74 <printk>
 
@@ -525,20 +525,20 @@ static void uart_callback(const struct device *dev,
      5b0:	6b3b      	ldr	r3, [r7, #48]	; 0x30
      5b2:	2b00      	cmp	r3, #0
      5b4:	d00c      	beq.n	5d0 <CONFIG_NRF_MODEM_SHMEM_CTRL_SIZE+0xe8>
-     5b6:	234d      	movs	r3, #77	; 0x4d
+     5b6:	234f      	movs	r3, #79	; 0x4f
      5b8:	4a1d      	ldr	r2, [pc, #116]	; (630 <CONFIG_NRF_MODEM_SHMEM_CTRL_SIZE+0x148>)
      5ba:	491e      	ldr	r1, [pc, #120]	; (634 <CONFIG_NRF_MODEM_SHMEM_CTRL_SIZE+0x14c>)
      5bc:	481e      	ldr	r0, [pc, #120]	; (638 <CONFIG_NRF_MODEM_SHMEM_CTRL_SIZE+0x150>)
      5be:	f00f fb59 	bl	fc74 <printk>
      5c2:	481e      	ldr	r0, [pc, #120]	; (63c <CONFIG_NRF_MODEM_SHMEM_CTRL_SIZE+0x154>)
      5c4:	f00f fb56 	bl	fc74 <printk>
-     5c8:	214d      	movs	r1, #77	; 0x4d
+     5c8:	214f      	movs	r1, #79	; 0x4f
      5ca:	4819      	ldr	r0, [pc, #100]	; (630 <CONFIG_NRF_MODEM_SHMEM_CTRL_SIZE+0x148>)
      5cc:	f00f ffae 	bl	1052c <assert_post_action>
 
 		err = uart_rx_buf_rsp(uart, buf, BUF_SIZE);
      5d0:	697b      	ldr	r3, [r7, #20]
-     5d2:	2240      	movs	r2, #64	; 0x40
+     5d2:	2220      	movs	r2, #32
      5d4:	4619      	mov	r1, r3
      5d6:	6b78      	ldr	r0, [r7, #52]	; 0x34
      5d8:	f00f faab 	bl	fb32 <uart_rx_buf_rsp>
@@ -547,14 +547,14 @@ static void uart_callback(const struct device *dev,
      5de:	6b3b      	ldr	r3, [r7, #48]	; 0x30
      5e0:	2b00      	cmp	r3, #0
      5e2:	d00c      	beq.n	5fe <CONFIG_NRF_MODEM_SHMEM_CTRL_SIZE+0x116>
-     5e4:	2350      	movs	r3, #80	; 0x50
+     5e4:	2352      	movs	r3, #82	; 0x52
      5e6:	4a12      	ldr	r2, [pc, #72]	; (630 <CONFIG_NRF_MODEM_SHMEM_CTRL_SIZE+0x148>)
      5e8:	4912      	ldr	r1, [pc, #72]	; (634 <CONFIG_NRF_MODEM_SHMEM_CTRL_SIZE+0x14c>)
      5ea:	4813      	ldr	r0, [pc, #76]	; (638 <CONFIG_NRF_MODEM_SHMEM_CTRL_SIZE+0x150>)
      5ec:	f00f fb42 	bl	fc74 <printk>
      5f0:	4813      	ldr	r0, [pc, #76]	; (640 <CONFIG_NRF_MODEM_SHMEM_CTRL_SIZE+0x158>)
      5f2:	f00f fb3f 	bl	fc74 <printk>
-     5f6:	2150      	movs	r1, #80	; 0x50
+     5f6:	2152      	movs	r1, #82	; 0x52
      5f8:	480d      	ldr	r0, [pc, #52]	; (630 <CONFIG_NRF_MODEM_SHMEM_CTRL_SIZE+0x148>)
      5fa:	f00f ff97 	bl	1052c <assert_post_action>
 		break;
@@ -622,14 +622,14 @@ static void async(const struct device *lpuart)
      670:	697b      	ldr	r3, [r7, #20]
      672:	2b00      	cmp	r3, #0
      674:	d00c      	beq.n	690 <async+0x4c>
-     676:	2367      	movs	r3, #103	; 0x67
+     676:	2369      	movs	r3, #105	; 0x69
      678:	4a39      	ldr	r2, [pc, #228]	; (760 <async+0x11c>)
      67a:	493a      	ldr	r1, [pc, #232]	; (764 <async+0x120>)
      67c:	483a      	ldr	r0, [pc, #232]	; (768 <async+0x124>)
      67e:	f00f faf9 	bl	fc74 <printk>
      682:	483a      	ldr	r0, [pc, #232]	; (76c <async+0x128>)
      684:	f00f faf6 	bl	fc74 <printk>
-     688:	2167      	movs	r1, #103	; 0x67
+     688:	2169      	movs	r1, #105	; 0x69
      68a:	4835      	ldr	r0, [pc, #212]	; (760 <async+0x11c>)
      68c:	f00f ff4e 	bl	1052c <assert_post_action>
 
@@ -643,21 +643,21 @@ static void async(const struct device *lpuart)
      69c:	697b      	ldr	r3, [r7, #20]
      69e:	2b00      	cmp	r3, #0
      6a0:	d00c      	beq.n	6bc <async+0x78>
-     6a2:	236a      	movs	r3, #106	; 0x6a
+     6a2:	236c      	movs	r3, #108	; 0x6c
      6a4:	4a2e      	ldr	r2, [pc, #184]	; (760 <async+0x11c>)
      6a6:	492f      	ldr	r1, [pc, #188]	; (764 <async+0x120>)
      6a8:	482f      	ldr	r0, [pc, #188]	; (768 <async+0x124>)
      6aa:	f00f fae3 	bl	fc74 <printk>
      6ae:	4831      	ldr	r0, [pc, #196]	; (774 <async+0x130>)
      6b0:	f00f fae0 	bl	fc74 <printk>
-     6b4:	216a      	movs	r1, #106	; 0x6a
+     6b4:	216c      	movs	r1, #108	; 0x6c
      6b6:	482a      	ldr	r0, [pc, #168]	; (760 <async+0x11c>)
      6b8:	f00f ff38 	bl	1052c <assert_post_action>
 
 	err = uart_rx_enable(lpuart, buf, BUF_SIZE, 10);
      6bc:	68b9      	ldr	r1, [r7, #8]
      6be:	230a      	movs	r3, #10
-     6c0:	2240      	movs	r2, #64	; 0x40
+     6c0:	2220      	movs	r2, #32
      6c2:	6878      	ldr	r0, [r7, #4]
      6c4:	f00f fa6e 	bl	fba4 <uart_rx_enable>
      6c8:	6178      	str	r0, [r7, #20]
@@ -665,14 +665,14 @@ static void async(const struct device *lpuart)
      6ca:	697b      	ldr	r3, [r7, #20]
      6cc:	2b00      	cmp	r3, #0
      6ce:	d00c      	beq.n	6ea <async+0xa6>
-     6d0:	236d      	movs	r3, #109	; 0x6d
+     6d0:	236f      	movs	r3, #111	; 0x6f
      6d2:	4a23      	ldr	r2, [pc, #140]	; (760 <async+0x11c>)
      6d4:	4923      	ldr	r1, [pc, #140]	; (764 <async+0x120>)
      6d6:	4824      	ldr	r0, [pc, #144]	; (768 <async+0x124>)
      6d8:	f00f facc 	bl	fc74 <printk>
      6dc:	4826      	ldr	r0, [pc, #152]	; (778 <async+0x134>)
      6de:	f00f fac9 	bl	fc74 <printk>
-     6e2:	216d      	movs	r1, #109	; 0x6d
+     6e2:	216f      	movs	r1, #111	; 0x6f
      6e4:	481e      	ldr	r0, [pc, #120]	; (760 <async+0x11c>)
      6e6:	f00f ff21 	bl	1052c <assert_post_action>
 
@@ -688,14 +688,14 @@ static void async(const struct device *lpuart)
      6fa:	697b      	ldr	r3, [r7, #20]
      6fc:	2b00      	cmp	r3, #0
      6fe:	d00c      	beq.n	71a <async+0xd6>
-     700:	2371      	movs	r3, #113	; 0x71
+     700:	2373      	movs	r3, #115	; 0x73
      702:	4a17      	ldr	r2, [pc, #92]	; (760 <async+0x11c>)
      704:	4917      	ldr	r1, [pc, #92]	; (764 <async+0x120>)
      706:	4818      	ldr	r0, [pc, #96]	; (768 <async+0x124>)
      708:	f00f fab4 	bl	fc74 <printk>
      70c:	481b      	ldr	r0, [pc, #108]	; (77c <async+0x138>)
      70e:	f00f fab1 	bl	fc74 <printk>
-     712:	2171      	movs	r1, #113	; 0x71
+     712:	2173      	movs	r1, #115	; 0x73
      714:	4812      	ldr	r0, [pc, #72]	; (760 <async+0x11c>)
      716:	f00f ff09 	bl	1052c <assert_post_action>
 
@@ -760,18 +760,17 @@ void main(void)
      796:	687b      	ldr	r3, [r7, #4]
      798:	2b00      	cmp	r3, #0
      79a:	d10c      	bne.n	7b6 <main+0x36>
-     79c:	2381      	movs	r3, #129	; 0x81
+     79c:	2383      	movs	r3, #131	; 0x83
      79e:	4a0a      	ldr	r2, [pc, #40]	; (7c8 <main+0x48>)
      7a0:	490a      	ldr	r1, [pc, #40]	; (7cc <main+0x4c>)
      7a2:	480b      	ldr	r0, [pc, #44]	; (7d0 <main+0x50>)
      7a4:	f00f fa66 	bl	fc74 <printk>
      7a8:	480a      	ldr	r0, [pc, #40]	; (7d4 <main+0x54>)
      7aa:	f00f fa63 	bl	fc74 <printk>
-     7ae:	2181      	movs	r1, #129	; 0x81
+     7ae:	2183      	movs	r1, #131	; 0x83
      7b0:	4805      	ldr	r0, [pc, #20]	; (7c8 <main+0x48>)
      7b2:	f00f febb 	bl	1052c <assert_post_action>
-
-	if (IS_ENABLED(CONFIG_NRF_SW_LPUART_INT_DRIVEN)) {
+	if (IS_ENABLED(CONFIG_NRF_SW_LPUART_INT_DRIVEN)) {			
 		interrupt_driven(lpuart);
 	} else {
 		async(lpuart);
@@ -5384,7 +5383,7 @@ void log_core_init(void)
     281c:	00010f6d 	.word	0x00010f6d
     2820:	00010f5f 	.word	0x00010f5f
     2824:	20000508 	.word	0x20000508
-    2828:	20002030 	.word	0x20002030
+    2828:	20001fd0 	.word	0x20001fd0
     282c:	200004e8 	.word	0x200004e8
 
 00002830 <log_init>:
@@ -6104,8 +6103,8 @@ bool log_is_strdup(const void *buf)
     2c3a:	46bd      	mov	sp, r7
     2c3c:	bc80      	pop	{r7}
     2c3e:	4770      	bx	lr
-    2c40:	20002030 	.word	0x20002030
-    2c44:	200020d0 	.word	0x200020d0
+    2c40:	20001fd0 	.word	0x20001fd0
+    2c44:	20002070 	.word	0x20002070
 
 00002c48 <log_free>:
 
@@ -6344,7 +6343,7 @@ void log_msg_pool_init(void)
 }
     2dc8:	bf00      	nop
     2dca:	bd80      	pop	{r7, pc}
-    2dcc:	200020d0 	.word	0x200020d0
+    2dcc:	20002070 	.word	0x20002070
     2dd0:	20000520 	.word	0x20000520
 
 00002dd4 <log_msg_chunk_alloc>:

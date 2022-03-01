@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lorenzobrancaleoni/Downloads/sdk-nrf-lpuart_using_normal_uart/samples/peripheral/lpuart
+# Install script for directory: /Users/lorenzobrancaleoni/Progetti/Progetto_ESP/ESP_project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/lorenzobrancaleoni/Downloads/sdk-nrf-lpuart_using_normal_uart/samples/peripheral/lpuart/build/zephyr/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/ESP_project/build/zephyr/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/lorenzobrancaleoni/Downloads/sdk-nrf-lpuart_using_normal_uart/samples/peripheral/lpuart/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/ESP_project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

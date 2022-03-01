@@ -12,4 +12,4 @@ empty_file.o: /opt/nordic/ncs/v1.7.1/zephyr/misc/empty_file.c \
  /opt/nordic/ncs/v1.7.1/zephyr/dts/arm/nordic/nrf9160_common.dtsi \
  /opt/nordic/ncs/v1.7.1/zephyr/boards/arm/nrf9160dk_nrf9160/nrf9160dk_nrf9160_common.dts \
  /opt/nordic/ncs/v1.7.1/zephyr/boards/arm/nrf9160dk_nrf9160/nrf9160dk_nrf9160_partition_conf.dts \
- /Users/lorenzobrancaleoni/Downloads/sdk-nrf-lpuart_using_normal_uart/samples/peripheral/lpuart/boards/nrf9160dk_nrf9160.overlay
+ /Users/lorenzobrancaleoni/Progetti/Progetto_ESP/ESP_project/boards/nrf9160dk_nrf9160.overlay

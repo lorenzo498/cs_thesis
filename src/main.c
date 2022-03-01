@@ -9,14 +9,15 @@
 #include <drivers/uart.h>
 
 LOG_MODULE_REGISTER(app);
+//PRIMA ERA 64 BUF SIZE
+const char *myQrCode[100];
 
-#define BUF_SIZE 64
+#define BUF_SIZE 32
 static K_MEM_SLAB_DEFINE(uart_slab, BUF_SIZE, 3, 4);
 
 static void uart_irq_handler(const struct device *dev, void *context)
 {
 	uint8_t buf[] = {1, 2, 3, 4, 5};
-
 	if (uart_irq_tx_ready(dev)) {
 		(void)uart_fifo_fill(dev, buf, sizeof(buf));
 		uart_irq_tx_disable(dev);
@@ -56,6 +57,7 @@ static void uart_callback(const struct device *dev,
 
 	switch (evt->type) {
 	case UART_TX_DONE:
+
 		// LOG_INF("Tx sent %d bytes", evt->data.tx.len);
 		break;
 
@@ -64,7 +66,7 @@ static void uart_callback(const struct device *dev,
 		break;
 
 	case UART_RX_RDY:
-			printk("%s\n", evt->data.tx.buf);
+			printk("%s\n", evt->data.rx);
 
 		LOG_INF("Received data %d bytes", evt->data.rx.len);
 		break;
@@ -127,8 +129,7 @@ void main(void)
 
 	lpuart = device_get_binding("UART_1");
 	__ASSERT(lpuart, "Failed to get the device");
-
-	if (IS_ENABLED(CONFIG_NRF_SW_LPUART_INT_DRIVEN)) {
+	if (IS_ENABLED(CONFIG_NRF_SW_LPUART_INT_DRIVEN)) {			
 		interrupt_driven(lpuart);
 	} else {
 		async(lpuart);

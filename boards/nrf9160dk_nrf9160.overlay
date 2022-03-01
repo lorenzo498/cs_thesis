@@ -3,6 +3,7 @@
 &uart1 {
 	rx-pin = <10>;
 	tx-pin = <11>;
+	current-speed = <115200>;
 	/delete-property/ rts-pin;
 	/delete-property/ cts-pin;
 	//rts-pin = < 12 >;

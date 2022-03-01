@@ -1,6 +1,6 @@
-/Users/lorenzobrancaleoni/Downloads/sdk-nrf-lpuart_using_normal_uart/samples/peripheral/lpuart/build/Kconfig/Kconfig.modules
-/Users/lorenzobrancaleoni/Downloads/sdk-nrf-lpuart_using_normal_uart/samples/peripheral/lpuart/build/Kconfig/Kconfig.shield
-/Users/lorenzobrancaleoni/Downloads/sdk-nrf-lpuart_using_normal_uart/samples/peripheral/lpuart/build/Kconfig/Kconfig.shield.defconfig
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/ESP_project/build/Kconfig/Kconfig.modules
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/ESP_project/build/Kconfig/Kconfig.shield
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/ESP_project/build/Kconfig/Kconfig.shield.defconfig
 /opt/nordic/ncs/v1.7.1/modules/debug/TraceRecorder/kernelports/Zephyr/Kconfig
 /opt/nordic/ncs/v1.7.1/modules/debug/TraceRecorder/kernelports/Zephyr/streamports/Jlink_RTT/Kconfig
 /opt/nordic/ncs/v1.7.1/modules/lib/matter/config/nrfconnect/chip-module/Kconfig

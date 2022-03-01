@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/lorenzobrancaleoni/Downloads/sdk-nrf-lpuart_using_normal_uart/samples/peripheral/lpuart/build/modules/nrf/subsys/net/lib/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/ESP_project/build/modules/nrf/subsys/net/lib/cmake_install.cmake")
 
 endif()
 
