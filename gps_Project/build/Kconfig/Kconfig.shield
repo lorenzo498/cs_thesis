@@ -1,0 +1,2 @@
+osource "c:/Users/Gioele/Desktop/Esp/Official/gps/gps/boards/shields/*/Kconfig.shield"
+osource "C:/ncs/v1.7.1/nrf/boards/shields/*/Kconfig.shield"

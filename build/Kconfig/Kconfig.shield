@@ -1,2 +1,3 @@
-osource "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/ESP_project/boards/shields/*/Kconfig.shield"
-osource "/opt/nordic/ncs/v1.7.1/nrf/boards/shields/*/Kconfig.shield"
+osource "c:/Users/Gioele/Desktop/Esp/Official/gps/gps/boards/shields/*/Kconfig.shield"
+osource "c:/Users/Gioele/Desktop/Esp/Official/ESP_project/boards/shields/*/Kconfig.shield"
+osource "C:/ncs/v1.7.1/nrf/boards/shields/*/Kconfig.shield"

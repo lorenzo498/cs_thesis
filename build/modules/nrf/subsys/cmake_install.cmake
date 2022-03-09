@@ -1,8 +1,8 @@
-# Install script for directory: /opt/nordic/ncs/v1.7.1/nrf/subsys
+# Install script for directory: C:/ncs/v1.7.1/nrf/subsys
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/opt/nordic/ncs/v1.7.1/toolchain")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Zephyr-Kernel")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,15 +34,17 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/opt/nordic/ncs/v1.7.1/toolchain/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "C:/ncs/v1.7.1/toolchain/opt/bin/arm-none-eabi-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/ESP_project/build/modules/nrf/subsys/net/cmake_install.cmake")
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/ESP_project/build/modules/nrf/subsys/dfu/cmake_install.cmake")
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/ESP_project/build/modules/nrf/subsys/debug/cmake_install.cmake")
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/ESP_project/build/modules/nrf/subsys/partition_manager/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Esp/Official/ESP_project/build/modules/nrf/subsys/net/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Esp/Official/ESP_project/build/modules/nrf/subsys/dfu/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Esp/Official/ESP_project/build/modules/nrf/subsys/nonsecure/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Esp/Official/ESP_project/build/modules/nrf/subsys/fw_info/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Esp/Official/ESP_project/build/modules/nrf/subsys/debug/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Esp/Official/ESP_project/build/modules/nrf/subsys/partition_manager/cmake_install.cmake")
 
 endif()
 

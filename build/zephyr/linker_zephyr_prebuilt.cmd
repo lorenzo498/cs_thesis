@@ -2,8 +2,8 @@
 _region_min_align = 32;
 MEMORY
     {
-    FLASH (rx) : ORIGIN = (0x0 + 0x0), LENGTH = (1024*1K - 0x0)
-    SRAM (wx) : ORIGIN = 0x20000000, LENGTH = (88 * 1K)
+    FLASH (rx) : ORIGIN = 0x10000, LENGTH = 0xf0000
+    SRAM (wx) : ORIGIN = 0x200144e8, LENGTH = 0x2bb18
    
    
    
@@ -15,7 +15,7 @@ MEMORY
    
    
    
-    IDT_LIST (wx) : ORIGIN = (0x20000000 + (88 * 1K)), LENGTH = 2K
+    IDT_LIST (wx) : ORIGIN = (0x200144e8 + 0x2bb18), LENGTH = 2K
     }
 ENTRY("__start")
 SECTIONS
@@ -51,7 +51,7 @@ SECTIONS
  *(.iplt)
  }
    
- _image_rom_start = (0x0 + 0x0);
+ _image_rom_start = 0x10000;
     rom_start :
  {
 . = 0x0;
@@ -64,6 +64,10 @@ KEEP(*(".exc_vector_table.*"))
 KEEP(*(.gnu.linkonce.irq_vector_table*))
 KEEP(*(.vectors))
 _vector_end = .;
+. = 0x200;
+_fw_info_start = .;
+KEEP(*(SORT_BY_NAME(.firmware_info*)))
+_fw_info_size = ABSOLUTE(. - _fw_info_start);
  } > FLASH
     text :
  {
@@ -168,6 +172,16 @@ _vector_end = .;
  *(.rodata)
  *(".rodata.*")
  *(.gnu.linkonce.r.*)
+. = ALIGN(4);
+_fw_info_images_start = .;
+KEEP(*(.fw_info_images))
+_fw_info_images_size = ABSOLUTE((. - _fw_info_images_start) / 4);
+_ext_apis_start = .;
+KEEP(*(.ext_apis))
+_ext_apis_size = ABSOLUTE(. - _ext_apis_start);
+_ext_apis_req_start = .;
+KEEP(*(.ext_apis_req))
+_ext_apis_req_size = ABSOLUTE(. - _ext_apis_req_start);
  . = ALIGN(4);
  } > FLASH
  _image_rodata_end = .;
@@ -181,7 +195,7 @@ _vector_end = .;
  *(.igot)
  }
    
- . = 0x20000000;
+ . = 0x200144e8;
  . = ALIGN(_region_min_align);
  _image_ram_start = .;
 .ramfunc : ALIGN_WITH_INPUT
@@ -256,7 +270,7 @@ _ramfunc_rom_start = LOADADDR(.ramfunc);
         } > SRAM
     _image_ram_end = .;
     _end = .;
-    __kernel_ram_end = 0x20000000 + (88 * 1K);
+    __kernel_ram_end = 0x200144e8 + 0x2bb18;
     __kernel_ram_size = __kernel_ram_end - __kernel_ram_start;
    
 .intList :
