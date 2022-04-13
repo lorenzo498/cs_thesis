@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrf/samples/CMakeFiles/spm_subimage"
+		},
+		{
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrf/samples/CMakeFiles/spm_subimage.rule"
+		},
+		{
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrf/samples/CMakeFiles/spm_subimage-complete.rule"
+		},
+		{
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrf/samples/spm_subimage-prefix/src/spm_subimage-stamp/spm_subimage-build.rule"
+		},
+		{
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrf/samples/spm_subimage-prefix/src/spm_subimage-stamp/spm_subimage-configure.rule"
+		},
+		{
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrf/samples/spm_subimage-prefix/src/spm_subimage-stamp/spm_subimage-download.rule"
+		},
+		{
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrf/samples/spm_subimage-prefix/src/spm_subimage-stamp/spm_subimage-install.rule"
+		},
+		{
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrf/samples/spm_subimage-prefix/src/spm_subimage-stamp/spm_subimage-mkdir.rule"
+		},
+		{
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrf/samples/spm_subimage-prefix/src/spm_subimage-stamp/spm_subimage-patch.rule"
+		},
+		{
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrf/samples/spm_subimage-prefix/src/spm_subimage-stamp/spm_subimage-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"spm_subimage"
+		],
+		"name" : "spm_subimage"
+	}
+}

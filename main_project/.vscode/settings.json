@@ -1,0 +1,21 @@
+{
+  "nrf-connect.topdir": "${nrf-connect.sdk:1.9.1}",
+  "nrf-connect.toolchain.path": "${nrf-connect.toolchain:1.9.1}",
+  "nrf-connect.applications": [
+    "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/lpuart",
+    "${workspaceFolder}"
+  ],
+  "files.associations": {
+    "stdlib.h": "c",
+    "cjson.h": "c",
+    "function.h": "c",
+    "date_time.h": "c",
+    "stdio.h": "c",
+    "nvs.h": "c",
+    "gps_function.h": "c",
+    "flash_map.h": "c",
+    "uart.h": "c",
+    "lte_lc.h": "c",
+    "nrf_modem_gnss.h": "c"
+  }
+}

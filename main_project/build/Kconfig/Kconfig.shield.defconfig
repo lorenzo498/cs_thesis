@@ -1,0 +1,2 @@
+osource "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/boards/shields/*/Kconfig.defconfig"
+osource "/opt/nordic/ncs/v1.9.1/nrf/boards/shields/*/Kconfig.defconfig"

@@ -2,5 +2,16 @@
     "nrf-connect.applications": [
         "${workspaceFolder}"
     ],
-    "nrf-connect.toolchain.path": "${nrf-connect.toolchain:1.7.1}"
+    "nrf-connect.toolchain.path": "${nrf-connect.toolchain:1.9.1}",
+    "files.associations": {
+        "nvs.h": "c",
+        "flash.h": "c",
+        "array": "c",
+        "string_view": "c",
+        "uart.h": "c",
+        "log.h": "c",
+        "zephyr.h": "c",
+        "flash_map.h": "c"
+    },
+    "nrf-connect.topdir": "${nrf-connect.sdk:1.9.1}"
 }
