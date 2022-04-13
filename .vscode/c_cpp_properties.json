@@ -1,6 +1,7 @@
 {
     "configurations": [
         {
+<<<<<<< HEAD
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**"
@@ -12,6 +13,21 @@
             "cppStandard": "gnu++14",
             "intelliSenseMode": "macos-gcc-x64",
             "configurationProvider": "nrf-connect"
+=======
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+>>>>>>> 361fa9f3e3690738f7aca1c3410faba21050815c
         }
     ],
     "version": 4
