@@ -39,201 +39,201 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/arch/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/arch/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/lib/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/lib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/soc/arm/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/soc/arm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/boards/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/boards/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/subsys/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/subsys/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/drivers/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/drivers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrf/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/nrf/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/mcuboot/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/mcuboot/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/mbedtls/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/mbedtls/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/trusted-firmware-m/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/trusted-firmware-m/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/cjson/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/cjson/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/cddl-gen/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/cddl-gen/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/memfault-firmware-sdk/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/memfault-firmware-sdk/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/openthread/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/openthread/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/CANopenNode/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/CANopenNode/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/civetweb/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/civetweb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/cmsis/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/cmsis/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/fatfs/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/fatfs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/hal_nordic/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/hal_nordic/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/st/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/st/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/libmetal/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/libmetal/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/littlefs/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/littlefs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/loramac-node/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/loramac-node/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/lvgl/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/lvgl/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/lz4/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/lz4/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/mipi-sys-t/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/mipi-sys-t/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nanopb/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/nanopb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrf_hw_models/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/nrf_hw_models/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/open-amp/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/open-amp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/segger/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/segger/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/tinycbor/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/tinycbor/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/tinycrypt/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/tinycrypt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/TraceRecorder/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/TraceRecorder/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/zscilib/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/zscilib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrfxlib/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/nrfxlib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/connectedhomeip/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/connectedhomeip/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/kernel/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/kernel/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/cmake/flash/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/cmake/flash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/cmake/usage/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/cmake/usage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/cmake/reports/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/cmake/reports/cmake_install.cmake")
 endif()
 

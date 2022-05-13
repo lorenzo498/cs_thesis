@@ -1,6 +1,6 @@
 {
     "nrf-connect.applications": [
-        "${workspaceFolder}"
+        "${workspaceFolder}/main_project"
     ],
     "nrf-connect.toolchain.path": "${nrf-connect.toolchain:1.9.1}",
     "files.associations": {
@@ -11,7 +11,9 @@
         "uart.h": "c",
         "log.h": "c",
         "zephyr.h": "c",
-        "flash_map.h": "c"
+        "flash_map.h": "c",
+        "algorithm": "c",
+        "gps_uart.h": "c"
     },
     "nrf-connect.topdir": "${nrf-connect.sdk:1.9.1}"
 }

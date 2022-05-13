@@ -39,26 +39,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/lib/libc/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/lib/libc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/lib/posix/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/lib/posix/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/lib/gui/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/lib/gui/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/lib/os/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/lib/os/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/lib/util/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/lib/util/cmake_install.cmake")
 endif()
 

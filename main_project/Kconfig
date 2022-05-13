@@ -23,7 +23,7 @@ if GNSS_SAMPLE_MODE_PERIODIC
 config GNSS_SAMPLE_PERIODIC_INTERVAL
 	int "Fix interval for periodic fixes"
 	range 10 65535
-	default 10
+	default 100
 	help
 	  Fix interval (in seconds) for periodic fixes.
 

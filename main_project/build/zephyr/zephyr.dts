@@ -203,13 +203,25 @@
 				compatible = "nordic,nrf-uarte";
 				reg = < 0x9000 0x1000 >;
 				interrupts = < 0x9 0x1 >;
-				status = "okay";
+				status = "disabled";
 				label = "UART_1";
-				current-speed = < 0x2580 >;
+				current-speed = < 0x1c200 >;
+				tx-pin = < 0x1 >;
+				rx-pin = < 0x0 >;
+				rx-pull-up;
+				rts-pin = < 0xe >;
+				cts-pin = < 0xf >;
+				cts-pull-up;
+			};
+			uart2: uart@a000 {
+				compatible = "nordic,nrf-uarte";
+				reg = < 0xa000 0x1000 >;
+				interrupts = < 0xa 0x1 >;
+				status = "okay";
+				label = "UART_2";
 				tx-pin = < 0xb >;
 				rx-pin = < 0xa >;
-				rx-pull-up;
-				cts-pull-up;
+				current-speed = < 0x2580 >;
 				lpuart: nrf-sw-lpuart {
 					compatible = "nordic,nrf-sw-lpuart";
 					status = "okay";
@@ -217,15 +229,6 @@
 					req-pin = < 0xc >;
 					rdy-pin = < 0xd >;
 				};
-			};
-			uart2: uart@a000 {
-				compatible = "nordic,nrf-uarte";
-				reg = < 0xa000 0x1000 >;
-				interrupts = < 0xa 0x1 >;
-				status = "disabled";
-				label = "UART_2";
-				tx-pin = < 0x18 >;
-				rx-pin = < 0x17 >;
 			};
 			uart3: uart@b000 {
 				compatible = "nordic,nrf-uarte";

@@ -16,6 +16,7 @@
     "flash_map.h": "c",
     "uart.h": "c",
     "lte_lc.h": "c",
-    "nrf_modem_gnss.h": "c"
+    "nrf_modem_gnss.h": "c",
+    "gps_uart.h": "c"
   }
 }

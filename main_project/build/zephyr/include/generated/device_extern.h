@@ -72,7 +72,7 @@ extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_timer_10000); /* dts_ord_64 */
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_timer_11000); /* dts_ord_65 */
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_uart_8000); /* dts_ord_66 */
-extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_uart_a000); /* dts_ord_67 */
+extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_uart_9000); /* dts_ord_67 */
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_uart_b000); /* dts_ord_68 */
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_vmc_3a000); /* dts_ord_69 */
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_watchdog_18000); /* dts_ord_70 */
@@ -86,8 +86,8 @@ extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_flash_controller_39000_S_flash_0_S_partitions_S_partition_c0000); /* dts_ord_78 */
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_flash_controller_39000_S_flash_0_S_partitions_S_partition_f0000); /* dts_ord_79 */
 extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_flash_controller_39000_S_flash_0_S_partitions_S_partition_fa000); /* dts_ord_80 */
-extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_uart_9000); /* dts_ord_81 */
-extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_uart_9000_S_nrf_sw_lpuart); /* dts_ord_82 */
+extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_uart_a000); /* dts_ord_81 */
+extern const struct device DEVICE_DT_NAME_GET(DT_N_S_soc_S_peripheral_40000000_S_uart_a000_S_nrf_sw_lpuart); /* dts_ord_82 */
 
 #ifdef __cplusplus
 }

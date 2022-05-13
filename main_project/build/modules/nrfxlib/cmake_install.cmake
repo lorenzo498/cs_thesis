@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrfxlib/nrfxlib/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/nrfxlib/nrfxlib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/modules/nrfxlib/nrf_802154/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/nrfxlib/nrf_802154/cmake_install.cmake")
 endif()
 

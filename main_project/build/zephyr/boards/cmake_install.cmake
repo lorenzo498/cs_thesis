@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/zephyr/boards/arm/nrf9160dk_nrf9160/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/zephyr/boards/boards/arm/nrf9160dk_nrf9160_ns/cmake_install.cmake")
 endif()
 

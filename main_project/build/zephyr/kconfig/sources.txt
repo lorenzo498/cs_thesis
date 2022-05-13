@@ -1,7 +1,7 @@
-/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/Kconfig
-/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/Kconfig/Kconfig.modules
-/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/Kconfig/Kconfig.shield
-/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/build/Kconfig/Kconfig.shield.defconfig
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/Kconfig
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/Kconfig/Kconfig.modules
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/Kconfig/Kconfig.shield
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/Kconfig/Kconfig.shield.defconfig
 /opt/nordic/ncs/v1.9.1/modules/debug/TraceRecorder/kernelports/Zephyr/Kconfig
 /opt/nordic/ncs/v1.9.1/modules/debug/TraceRecorder/kernelports/Zephyr/streamports/ARM_ITM/Kconfig
 /opt/nordic/ncs/v1.9.1/modules/debug/TraceRecorder/kernelports/Zephyr/streamports/Jlink_RTT/Kconfig

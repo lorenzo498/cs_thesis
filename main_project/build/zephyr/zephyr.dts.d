@@ -13,4 +13,4 @@ empty_file.o: /opt/nordic/ncs/v1.9.1/zephyr/misc/empty_file.c \
  /opt/nordic/ncs/v1.9.1/zephyr/dts/arm/nordic/nrf9160_common.dtsi \
  /opt/nordic/ncs/v1.9.1/zephyr/boards/arm/nrf9160dk_nrf9160/nrf9160dk_nrf9160_common.dts \
  /opt/nordic/ncs/v1.9.1/zephyr/boards/arm/nrf9160dk_nrf9160/nrf9160dk_nrf9160_partition_conf.dts \
- /Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/boards/nrf9160dk_nrf9160_ns.overlay
+ /Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/boards/nrf9160dk_nrf9160_ns.overlay

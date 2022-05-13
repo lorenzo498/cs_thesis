@@ -1,0 +1,13 @@
+# Target labels
+ tfm
+# Source files and their labels
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/trusted-firmware-m/CMakeFiles/tfm
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/trusted-firmware-m/CMakeFiles/tfm.rule
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/trusted-firmware-m/CMakeFiles/tfm-complete.rule
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-build.rule
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-configure.rule
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-download.rule
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-install.rule
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-mkdir.rule
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-patch.rule
+/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-update.rule

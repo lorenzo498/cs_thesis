@@ -17,13 +17,11 @@
 
 #define BUF_SIZE 10
 
-
 typedef uint8_t u8;
 typedef uint32_t u32;
-uint32_t u32Idx;
 uint32_t previous_qr_code_time;
 uint32_t current_qr_code_time;
-uint32_t current_time;
+uint32_t current_time_for_gps_comparison;
 
 static K_MEM_SLAB_DEFINE(uart_slab, BUF_SIZE, 3, 4);
 
@@ -45,7 +43,7 @@ void uart_callback(const struct device *dev,struct uart_event *evt, void *user_d
 
 	case UART_RX_RDY:
 		current_qr_code_time = k_uptime_get();
-		current_time = k_cycle_get_32()/32768;
+		current_time_for_gps_comparison = k_cycle_get_32()/32768;
 
 		if ((current_qr_code_time - previous_qr_code_time) > 300){
 			memset(finalQrCode, 0, strlen(finalQrCode));

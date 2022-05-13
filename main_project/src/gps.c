@@ -29,7 +29,7 @@ uint8_t day = 0;
 
 double latitude = 0;
 double longitude = 0;
-
+int flag_gps = 0;
 LOG_MODULE_REGISTER(gnss_sample, CONFIG_GNSS_SAMPLE_LOG_LEVEL);
 
 
@@ -74,6 +74,7 @@ void gnss_event_handler(int event)
 
 	switch (event) {
 	case NRF_MODEM_GNSS_EVT_PVT:
+
 		retval = nrf_modem_gnss_read(&last_pvt, sizeof(last_pvt), NRF_MODEM_GNSS_DATA_PVT);
 		if (retval == 0) {
 			k_sem_give(&pvt_data_sem);
@@ -95,6 +96,7 @@ void gnss_event_handler(int event)
 		}
 
 		if (retval != 0) {
+			
 			k_free(nmea_data);
 		}
 		break;
@@ -219,10 +221,10 @@ int gnss_init_and_start(void)
 	uint16_t fix_retry = 0;
 	uint16_t fix_interval = 1;
 
-#if defined(CONFIG_GNSS_SAMPLE_MODE_PERIODIC)
+// #if defined(CONFIG_GNSS_SAMPLE_MODE_PERIODIC)
 	fix_retry = CONFIG_GNSS_SAMPLE_PERIODIC_TIMEOUT;//Intervallo di tempo in cui il gps va in timeout e non richiede nuovamente la posizione(dopo il primo ottenimento di una posizione)
 	fix_interval = CONFIG_GNSS_SAMPLE_PERIODIC_INTERVAL;//Intervallo di tempo in cui il gps richiede la posizione e poi va in timeout(dopo il primo ottenimento di una posizione)
-#endif
+// #endif
 
 	if (nrf_modem_gnss_fix_retry_set(fix_retry) != 0) {
 		LOG_ERR("Failed to set GNSS fix retry");
@@ -274,7 +276,7 @@ void print_satellite_stats(struct nrf_modem_gnss_pvt_data_frame *pvt_data)
 	printk("Tracking: %2d Using: %2d Unhealthy: %d\n", tracked, in_fix, unhealthy);
 }
 
-void print_fix_data(struct nrf_modem_gnss_pvt_data_frame *pvt_data)
+int set_gps_data(struct nrf_modem_gnss_pvt_data_frame *pvt_data)
 {
 	// printk("Latitude:       %.06f\n", pvt_data->latitude);
 	// printk("Longitude:      %.06f\n", pvt_data->longitude);
@@ -298,6 +300,11 @@ void print_fix_data(struct nrf_modem_gnss_pvt_data_frame *pvt_data)
 	// printk("TDOP:           %.01f\n", pvt_data->tdop);
 			/* capture initial time stamp */
 
+	if (pvt_data->datetime.hour == hour && pvt_data->datetime.minute == minute && pvt_data->datetime.seconds == seconds){
+		events[0].state = K_POLL_STATE_NOT_READY;
+		events[1].state = K_POLL_STATE_NOT_READY;
+		return 0;
+	}
 	latitude = pvt_data->latitude;
 	longitude = pvt_data->longitude;
 
@@ -308,7 +315,7 @@ void print_fix_data(struct nrf_modem_gnss_pvt_data_frame *pvt_data)
 	year = pvt_data->datetime.year;
 	month = pvt_data->datetime.month;
 	day = pvt_data->datetime.day;
-
+	return 1;
 }
 
 int init_gps(void){
@@ -337,9 +344,10 @@ int init_gps(void){
 int search(void)
 {
 		(void)k_poll(events, 2, K_FOREVER);
-
-		if (events[0].state == K_POLL_STATE_SEM_AVAILABLE &&
-		    k_sem_take(events[0].sem, K_NO_WAIT) == 0) {
+		// && k_sem_take(events[0].sem, K_NO_WAIT) == 0
+		
+		if (events[0].state == K_POLL_STATE_SEM_AVAILABLE )
+		    {
 			/* New PVT data available */
 
 			if (!IS_ENABLED(CONFIG_GNSS_SAMPLE_NMEA_ONLY) &&
@@ -358,13 +366,13 @@ int search(void)
 				if (last_pvt.flags & NRF_MODEM_GNSS_PVT_FLAG_SLEEP_BETWEEN_PVT) {
 					printk("Sleep period(s) between PVT notifications\n");
 				}
-				printk("-----------------------------------\n");
 
 				if (last_pvt.flags & NRF_MODEM_GNSS_PVT_FLAG_FIX_VALID) {
 					fix_timestamp = k_uptime_get();
-					print_fix_data(&last_pvt);
-					return 1;
+					flag_gps = set_gps_data(&last_pvt);
 				} else {
+					flag_gps = 0;
+					printk("-----------------------------------\n");
 					printk("Seconds since last fix: %lld\n",
 					       (k_uptime_get() - fix_timestamp) / 1000);
 					cnt++;
@@ -386,7 +394,7 @@ int search(void)
 
 		events[0].state = K_POLL_STATE_NOT_READY;
 		events[1].state = K_POLL_STATE_NOT_READY;
-		return 0;
+		return flag_gps;
 
 }
 

@@ -893,10 +893,10 @@ arduino_i2c: &i2c2 {
  status = "disabled";
 };
 # 1 "<command-line>" 2
-# 1 "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/main_project/boards/nrf9160dk_nrf9160_ns.overlay" 1
+# 1 "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/boards/nrf9160dk_nrf9160_ns.overlay" 1
 
 
-&uart1 {
+&uart2 {
  status = "okay";
  rx-pin = <10>;
  tx-pin = <11>;
@@ -919,6 +919,11 @@ arduino_i2c: &i2c2 {
 
 &gpiote {
  interrupts = <49 1>;
+};
+
+
+&uart1 {
+ status = "disabled";
 };
 # 1 "<command-line>" 2
 # 1 "/opt/nordic/ncs/v1.9.1/zephyr/misc/empty_file.c"
