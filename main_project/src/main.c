@@ -3,35 +3,44 @@
  *
  * SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
  */
-
 #include "gps_uart.h"
 
 uint32_t start_time;
 uint32_t cycles_spent;
 cJSON *root, *dataToSent, *data;
-static struct nvs_fs fs;
 
 void createJson(){
-   char *out;
-   /* create root node and array */
-   root = cJSON_CreateObject();
-   dataToSent = cJSON_CreateArray();
+   	char *out;
+	/* create root node and array */
+	root = cJSON_CreateObject();
 
-   /* add array to root */
-   cJSON_AddItemToObject(root, "dataToSent", dataToSent);
+	if (get_saved_data() == 1){
+		root = cJSON_Parse(stored_data);
+    	dataToSent = cJSON_GetObjectItemCaseSensitive(root, "data");
+		// cJSON_ArrayForEach(data, dataToSent)
+		// {
+		// 	cJSON *qrCode = cJSON_GetObjectItemCaseSensitive(data, "qr");
+		// 	printk("qrCode: %s\n", qrCode->valuestring);
+		// }
 
-   /* print everything */
-   out = cJSON_Print(root);
-   printk("%s\n", out);
+	}else{
+		dataToSent = cJSON_CreateArray();
+		/* add array to root */
+		cJSON_AddItemToObject(root, "data", dataToSent);
+	}	
+	/* print everything */
+	out = cJSON_Print(root);
+	printk("data saved: \n%s\n", out);
 }
 
 
 void main(void)
 {
+	
 	const struct device *lpuart;
 	createJson();
 	k_msleep(1000);
-	
+
 	lpuart = device_get_binding("UART_2");
 	__ASSERT(lpuart, "Failed to get the device");
 	//START READING QR CODE
@@ -133,19 +142,17 @@ void transmit(void) {
 	printk("time: %s\n", time);
 
 	/* add data to array */
-	cJSON_AddItemToArray(dataToSent, data = cJSON_CreateObject());
-	cJSON_AddItemToObject(data, "qrCode", cJSON_CreateString(finalQrCode));
+	data = cJSON_CreateObject();
+	cJSON_AddItemToObject(data, "qr", cJSON_CreateString(finalQrCode));
 	cJSON_AddItemToObject(data, "latitude", cJSON_CreateString(latitude_string));
 	cJSON_AddItemToObject(data, "longitude", cJSON_CreateString(longitude_string));
     cJSON_AddItemToObject(data, "date", cJSON_CreateString(date));
 	cJSON_AddItemToObject(data, "time", cJSON_CreateString(time));
+	cJSON_AddItemToArray(dataToSent, data);
 
-	/* print everything */
+	/* save everything */
 	out = cJSON_Print(root);
-	printk("%s\n", out);
 	save_data(out);
-	get_saved_data();
-	memset(oldQrCode, 0, sizeof oldQrCode);
 
 	strcpy(oldQrCode, finalQrCode);
 	memset(finalQrCode, 0, sizeof finalQrCode);
@@ -154,7 +161,6 @@ void transmit(void) {
 
 	// free(out);
 	// printk("eeee");
-
 	// /* free all objects under root and root itself */
 	// cJSON_Delete(root);
 }

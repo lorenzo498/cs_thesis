@@ -40,8 +40,7 @@ extern double longitude;
 extern char oldQrCode[1000];
 extern char finalQrCode[1000];
 
-extern struct psa_storage_info_t uid1_info;
-extern char stored_data[1000];
+extern char *stored_data;
 
 int init_gps(void);
 int search(void);
