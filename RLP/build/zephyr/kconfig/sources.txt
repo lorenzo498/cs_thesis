@@ -1,6 +1,6 @@
-C:\Users\Gioele\Desktop\ecdsa\build\Kconfig\Kconfig.modules
-C:\Users\Gioele\Desktop\ecdsa\build\Kconfig\Kconfig.shield
-C:\Users\Gioele\Desktop\ecdsa\build\Kconfig\Kconfig.shield.defconfig
+C:\Users\Gioele\Desktop\Tesi\cs_thesis\RLP\build\Kconfig\Kconfig.modules
+C:\Users\Gioele\Desktop\Tesi\cs_thesis\RLP\build\Kconfig\Kconfig.shield
+C:\Users\Gioele\Desktop\Tesi\cs_thesis\RLP\build\Kconfig\Kconfig.shield.defconfig
 C:\ncs\v1.9.0\modules\debug\TraceRecorder\kernelports\Zephyr\Kconfig
 C:\ncs\v1.9.0\modules\debug\TraceRecorder\kernelports\Zephyr\streamports\ARM_ITM\Kconfig
 C:\ncs\v1.9.0\modules\debug\TraceRecorder\kernelports\Zephyr\streamports\Jlink_RTT\Kconfig

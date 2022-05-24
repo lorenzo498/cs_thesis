@@ -893,7 +893,7 @@ arduino_i2c: &i2c2 {
  status = "disabled";
 };
 # 1 "<command-line>" 2
-# 1 "C:/Users/Gioele/Desktop/ecdsa/boards/nrf9160dk_nrf9160_ns.overlay" 1
+# 1 "C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/boards/nrf9160dk_nrf9160_ns.overlay" 1
 
 
 

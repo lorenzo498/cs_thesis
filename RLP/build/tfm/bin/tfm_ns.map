@@ -1299,50 +1299,50 @@ OUTPUT(bin\tfm_ns.axf elf32-littlearm)
  .debug_line    0x0000d513      0xcab C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
  .debug_line    0x0000e1be      0x228 platform/libplatform_ns.a(system_nrf9160.o)
 
-.debug_str      0x00000000     0x5889
- .debug_str     0x00000000      0x235 app/CMakeFiles/tfm_ns.dir/main_ns.o
-                                0x276 (size before relaxing)
- .debug_str     0x00000235       0x87 app/CMakeFiles/tfm_ns.dir/C_/ncs/v1.9.0/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/gcc/startup_nrf9160_ns.o
-                                 0xaf (size before relaxing)
- .debug_str     0x000002bc       0xe5 app/CMakeFiles/tfm_ns.dir/C_/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
-                                0x28d (size before relaxing)
- .debug_str     0x000003a1      0x9a2 app/CMakeFiles/tfm_ns.dir/C_/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
-                                0xc3d (size before relaxing)
- .debug_str     0x00000d43      0x298 app/CMakeFiles/tfm_ns.dir/C_/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
-                                0xe6a (size before relaxing)
- .debug_str     0x00000fdb      0x4b9 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
-                                0xb26 (size before relaxing)
- .debug_str     0x00001494      0x670 platform/libplatform_ns.a(uart_stdout.o)
-                                0x9ee (size before relaxing)
- .debug_str     0x00001b04      0xd26 platform/libplatform_ns.a(Driver_USART.o)
-                               0x16db (size before relaxing)
- .debug_str     0x0000282a     0x103d platform/libplatform_ns.a(nrfx_uarte.o)
-                               0x1bbe (size before relaxing)
- .debug_str     0x00003867       0x88 app/libtfm_api_ns.a(tfm_ns_interface.o)
-                                0x2b4 (size before relaxing)
- .debug_str     0x000038ef      0x10f ns_log/libtfm_ns_log.a(tfm_log_raw.o)
-                                0x32d (size before relaxing)
- .debug_str     0x000039fe       0x6e C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
- .debug_str     0x00003a6c      0x2ef C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+.debug_str      0x00000000     0x5896
+ .debug_str     0x00000000      0x242 app/CMakeFiles/tfm_ns.dir/main_ns.o
+                                0x283 (size before relaxing)
+ .debug_str     0x00000242       0x87 app/CMakeFiles/tfm_ns.dir/C_/ncs/v1.9.0/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/gcc/startup_nrf9160_ns.o
+                                 0xbc (size before relaxing)
+ .debug_str     0x000002c9       0xe5 app/CMakeFiles/tfm_ns.dir/C_/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+                                0x29a (size before relaxing)
+ .debug_str     0x000003ae      0x9a2 app/CMakeFiles/tfm_ns.dir/C_/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+                                0xc4a (size before relaxing)
+ .debug_str     0x00000d50      0x298 app/CMakeFiles/tfm_ns.dir/C_/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+                                0xe77 (size before relaxing)
+ .debug_str     0x00000fe8      0x4b9 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+                                0xb33 (size before relaxing)
+ .debug_str     0x000014a1      0x670 platform/libplatform_ns.a(uart_stdout.o)
+                                0x9fb (size before relaxing)
+ .debug_str     0x00001b11      0xd26 platform/libplatform_ns.a(Driver_USART.o)
+                               0x16e8 (size before relaxing)
+ .debug_str     0x00002837     0x103d platform/libplatform_ns.a(nrfx_uarte.o)
+                               0x1bcb (size before relaxing)
+ .debug_str     0x00003874       0x88 app/libtfm_api_ns.a(tfm_ns_interface.o)
+                                0x2c1 (size before relaxing)
+ .debug_str     0x000038fc      0x10f ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+                                0x33a (size before relaxing)
+ .debug_str     0x00003a0b       0x6e C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
+ .debug_str     0x00003a79      0x2ef C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
                                0x12ca (size before relaxing)
- .debug_str     0x00003d5b      0x534 C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .debug_str     0x00003d68      0x534 C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
                                0x1620 (size before relaxing)
- .debug_str     0x0000428f      0x36e C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .debug_str     0x0000429c      0x36e C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
                                0x159d (size before relaxing)
- .debug_str     0x000045fd       0x83 C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+ .debug_str     0x0000460a       0x83 C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
                                0x104a (size before relaxing)
- .debug_str     0x00004680      0x171 C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .debug_str     0x0000468d      0x171 C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
                                0x1370 (size before relaxing)
- .debug_str     0x000047f1      0x683 C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .debug_str     0x000047fe      0x683 C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
                                0x1a88 (size before relaxing)
- .debug_str     0x00004e74      0x46a C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .debug_str     0x00004e81      0x46a C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
                                0x1785 (size before relaxing)
- .debug_str     0x000052de       0xf1 C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .debug_str     0x000052eb       0xf1 C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
                                 0x507 (size before relaxing)
- .debug_str     0x000053cf      0x1e5 C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .debug_str     0x000053dc      0x1e5 C:/ncs/v1.9.0/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
                                0x1316 (size before relaxing)
- .debug_str     0x000055b4      0x2d5 platform/libplatform_ns.a(system_nrf9160.o)
-                                0x558 (size before relaxing)
+ .debug_str     0x000055c1      0x2d5 platform/libplatform_ns.a(system_nrf9160.o)
+                                0x565 (size before relaxing)
 
 .debug_frame    0x00000000     0x18d4
  .debug_frame   0x00000000       0x58 app/CMakeFiles/tfm_ns.dir/main_ns.o

@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Gioele/Desktop/ecdsa/build/zephyr/lib/libc/cmake_install.cmake")
-  include("C:/Users/Gioele/Desktop/ecdsa/build/zephyr/lib/posix/cmake_install.cmake")
-  include("C:/Users/Gioele/Desktop/ecdsa/build/zephyr/lib/gui/cmake_install.cmake")
-  include("C:/Users/Gioele/Desktop/ecdsa/build/zephyr/lib/os/cmake_install.cmake")
-  include("C:/Users/Gioele/Desktop/ecdsa/build/zephyr/lib/util/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/zephyr/lib/libc/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/zephyr/lib/posix/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/zephyr/lib/gui/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/zephyr/lib/os/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/zephyr/lib/util/cmake_install.cmake")
 
 endif()
 

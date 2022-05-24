@@ -13,4 +13,4 @@ empty_file.o: C:/ncs/v1.9.0/zephyr/misc/empty_file.c \
  C:/ncs/v1.9.0/zephyr/dts/arm/nordic/nrf9160_common.dtsi \
  C:/ncs/v1.9.0/zephyr/boards/arm/nrf9160dk_nrf9160/nrf9160dk_nrf9160_common.dts \
  C:/ncs/v1.9.0/zephyr/boards/arm/nrf9160dk_nrf9160/nrf9160dk_nrf9160_partition_conf.dts \
- C:/Users/Gioele/Desktop/ecdsa/boards/nrf9160dk_nrf9160_ns.overlay
+ C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/boards/nrf9160dk_nrf9160_ns.overlay

@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Gioele/Desktop/ecdsa/build/modules/nrfxlib/nrfxlib/nrf_security/crypto_copy/cmake_install.cmake")
-  include("C:/Users/Gioele/Desktop/ecdsa/build/modules/nrfxlib/nrfxlib/nrf_security/src/cmake_install.cmake")
-  include("C:/Users/Gioele/Desktop/ecdsa/build/modules/nrfxlib/nrfxlib/nrf_security/src/zephyr/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/modules/nrfxlib/nrfxlib/nrf_security/crypto_copy/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/modules/nrfxlib/nrfxlib/nrf_security/src/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/modules/nrfxlib/nrfxlib/nrf_security/src/zephyr/cmake_install.cmake")
 
 endif()
 

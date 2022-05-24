@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Gioele/Desktop/ecdsa/build/tfm/install")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/tfm/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,21 +39,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Gioele/Desktop/ecdsa/build/tfm/lib/ext/qcbor/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/tfm/lib/ext/qcbor/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Gioele/Desktop/ecdsa/build/tfm/lib/ext/t_cose/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/tfm/lib/ext/t_cose/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Gioele/Desktop/ecdsa/build/tfm/lib/ext/mbedcrypto/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/tfm/lib/ext/mbedcrypto/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Gioele/Desktop/ecdsa/build/tfm/lib/ext/CMSIS_5/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/tfm/lib/ext/CMSIS_5/cmake_install.cmake")
 endif()
 

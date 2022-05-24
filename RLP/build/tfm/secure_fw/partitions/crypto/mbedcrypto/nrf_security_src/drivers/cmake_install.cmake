@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Gioele/Desktop/ecdsa/build/tfm/install")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/tfm/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Gioele/Desktop/ecdsa/build/tfm/secure_fw/partitions/crypto/mbedcrypto/nrf_security_src/drivers/nrf_cc3xx_platform/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/tfm/secure_fw/partitions/crypto/mbedcrypto/nrf_security_src/drivers/nrf_cc3xx_platform/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Gioele/Desktop/ecdsa/build/tfm/secure_fw/partitions/crypto/mbedcrypto/nrf_security_src/drivers/nrf_cc3xx/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/tfm/secure_fw/partitions/crypto/mbedcrypto/nrf_security_src/drivers/nrf_cc3xx/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Gioele/Desktop/ecdsa/build/tfm/secure_fw/partitions/crypto/mbedcrypto/nrf_security_src/drivers/nrf_oberon/cmake_install.cmake")
+  include("C:/Users/Gioele/Desktop/Tesi/cs_thesis/RLP/build/tfm/secure_fw/partitions/crypto/mbedcrypto/nrf_security_src/drivers/nrf_oberon/cmake_install.cmake")
 endif()
 
