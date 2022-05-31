@@ -42,16 +42,7 @@ e242e54155b1abc71fc118065270cecaaf8b77683b9aca
 */
 // Example of Ethereum txn using library
 
-  void ethers_keccak256(const uint8_t *data, uint16_t length, uint8_t *result) {
 
-    SHA3_CTX context;
-    keccak_init(&context);
-    keccak_update(&context, (const unsigned char*)data, (size_t)length);
-    keccak_final(&context, (unsigned char*)result);
-
-    // Clear out the contents of what we hashed (in case it was secret)
-    memset((char*)&context, 0, sizeof(SHA3_CTX));
-}
 static void debug_hexstring(const void *const address, size_t nBytes)
 {
      uint8_t *a = ((uint8_t*)(address));
@@ -67,11 +58,11 @@ static void debug_hexstring(const void *const address, size_t nBytes)
 }
 
 int main() {
- uint8_t publicKey[11]="CICCIOBELLO";
- uint8_t hashed[32];
- 
- ethers_keccak256(publicKey, 11, hashed);
-debug_hexstring(hashed, 32);
+  uint8_t publicKey[11]="CICCIOBELLO";
+  uint8_t hashed[32];
+  
+  ethers_keccak256(publicKey, 11, hashed);
+  debug_hexstring(hashed, 32);
 
   return 0;
 

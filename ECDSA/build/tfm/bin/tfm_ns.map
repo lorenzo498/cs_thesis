@@ -1,0 +1,1392 @@
+Archive member included to satisfy reference by file (symbol)
+
+platform/libplatform_ns.a(uart_stdout.o)
+                              app/CMakeFiles/tfm_ns.dir/main_ns.o (stdio_init)
+platform/libplatform_ns.a(Driver_USART.o)
+                              platform/libplatform_ns.a(uart_stdout.o) (Driver_USART0)
+platform/libplatform_ns.a(nrfx_uarte.o)
+                              platform/libplatform_ns.a(Driver_USART.o) (nrfx_uarte_init)
+app/libtfm_api_ns.a(tfm_ns_interface.o)
+                              app/CMakeFiles/tfm_ns.dir/main_ns.o (tfm_ns_interface_init)
+ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+                              app/CMakeFiles/tfm_ns.dir/main_ns.o (tfm_log_printf)
+/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
+                              app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o (irqRtxLib)
+/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+                              /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o) (osRtxTick_Handler)
+/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+                              app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o (osMessageQueueNew)
+/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+                              /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o) (osRtxMemoryPoolInit)
+/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+                              /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o) (osRtxMemoryAlloc)
+/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+                              app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o (osSemaphoreNew)
+/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+                              app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o (osMutexNew)
+/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                              app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o (osThreadExit)
+/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+                              app/CMakeFiles/tfm_ns.dir/main_ns.o (osKernelInitialize)
+/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+                              /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o) (OS_Tick_Setup)
+/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+                              /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o) (osRtxTimerThread)
+platform/libplatform_ns.a(system_nrf9160.o)
+                              /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o) (SystemCoreClock)
+/opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+                              /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o (exit)
+/opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+                              /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+                              /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o (__libc_init_array)
+/opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+                              platform/libplatform_ns.a(Driver_USART.o) (memcpy)
+/opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+                              /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o (memset)
+/opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+                              /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o) (_exit)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crti.o
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crti.o
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crti.o
+ .data          0x0000000000000000        0x4 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtbegin.o
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+ .text          0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/main_ns.o
+ .data          0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/main_ns.o
+ .bss           0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/main_ns.o
+ .text.tfm_ns_platform_uninit
+                0x0000000000000000        0xa app/CMakeFiles/tfm_ns.dir/main_ns.o
+ .data          0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/gcc/startup_nrf9160_ns.o
+ .bss           0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/gcc/startup_nrf9160_ns.o
+ .text          0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+ .data          0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+ .bss           0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+ .text          0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+ .data          0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+ .bss           0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+ .text          0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .data          0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .bss           0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .data.irqRtxLibRef
+                0x0000000000000000        0x4 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .text          0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .data          0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .bss           0x0000000000000000        0x0 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_thread_new
+                0x0000000000000000       0x36 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_semaphore_create
+                0x0000000000000000       0x18 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_semaphore_acquire
+                0x0000000000000000       0x10 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_semaphore_release
+                0x0000000000000000       0x10 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_semaphore_delete
+                0x0000000000000000       0x10 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_mutex_acquire
+                0x0000000000000000       0x18 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_mutex_release
+                0x0000000000000000       0x18 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_mutex_delete
+                0x0000000000000000       0x18 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_thread_get_handle
+                0x0000000000000000        0x4 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_thread_get_priority
+                0x0000000000000000       0x12 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_thread_exit
+                0x0000000000000000        0x6 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_thread_set_flag
+                0x0000000000000000        0xa app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_thread_set_flag_isr
+                0x0000000000000000        0x4 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_thread_wait_flag
+                0x0000000000000000        0xe app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_get_tick
+                0x0000000000000000        0x4 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_msg_queue_create
+                0x0000000000000000        0xc app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_msg_queue_send
+                0x0000000000000000       0x14 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text.os_wrapper_msg_queue_receive
+                0x0000000000000000       0x16 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .text          0x0000000000000000        0x0 platform/libplatform_ns.a(uart_stdout.o)
+ .data          0x0000000000000000        0x0 platform/libplatform_ns.a(uart_stdout.o)
+ .bss           0x0000000000000000        0x0 platform/libplatform_ns.a(uart_stdout.o)
+ .text._write   0x0000000000000000        0x8 platform/libplatform_ns.a(uart_stdout.o)
+ .text.stdio_uninit
+                0x0000000000000000       0x18 platform/libplatform_ns.a(uart_stdout.o)
+ .text          0x0000000000000000        0x0 platform/libplatform_ns.a(Driver_USART.o)
+ .data          0x0000000000000000        0x0 platform/libplatform_ns.a(Driver_USART.o)
+ .bss           0x0000000000000000        0x0 platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART1_GetTxCount
+                0x0000000000000000        0xc platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART1_GetRxCount
+                0x0000000000000000        0xc platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART1_Control
+                0x0000000000000000        0xc platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART1_Receive
+                0x0000000000000000       0x3c platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART1_Uninitialize
+                0x0000000000000000       0x14 platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART1_Send
+                0x0000000000000000        0xc platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART1_Initialize
+                0x0000000000000000        0xc platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART1_PowerControl
+                0x0000000000000000        0xc platform/libplatform_ns.a(Driver_USART.o)
+ .data.UART1_Resources
+                0x0000000000000000       0x20 platform/libplatform_ns.a(Driver_USART.o)
+ .data.UART1_initial_config
+                0x0000000000000000       0x20 platform/libplatform_ns.a(Driver_USART.o)
+ .rodata.Driver_USART1
+                0x0000000000000000       0x38 platform/libplatform_ns.a(Driver_USART.o)
+ .text          0x0000000000000000        0x0 platform/libplatform_ns.a(nrfx_uarte.o)
+ .data          0x0000000000000000        0x0 platform/libplatform_ns.a(nrfx_uarte.o)
+ .bss           0x0000000000000000        0x0 platform/libplatform_ns.a(nrfx_uarte.o)
+ .text.rx_done_event
+                0x0000000000000000       0x1a platform/libplatform_ns.a(nrfx_uarte.o)
+ .text.uarte_irq_handler
+                0x0000000000000000      0x102 platform/libplatform_ns.a(nrfx_uarte.o)
+ .text.nrfx_uarte_tx_in_progress
+                0x0000000000000000       0x18 platform/libplatform_ns.a(nrfx_uarte.o)
+ .text.nrfx_uarte_rx_ready
+                0x0000000000000000        0xe platform/libplatform_ns.a(nrfx_uarte.o)
+ .text.nrfx_uarte_errorsrc_get
+                0x0000000000000000       0x16 platform/libplatform_ns.a(nrfx_uarte.o)
+ .text.nrfx_uarte_tx_abort
+                0x0000000000000000       0x2c platform/libplatform_ns.a(nrfx_uarte.o)
+ .text.nrfx_uarte_rx_abort
+                0x0000000000000000       0x30 platform/libplatform_ns.a(nrfx_uarte.o)
+ .text.nrfx_uarte_0_irq_handler
+                0x0000000000000000       0x10 platform/libplatform_ns.a(nrfx_uarte.o)
+ .text.nrfx_uarte_1_irq_handler
+                0x0000000000000000       0x10 platform/libplatform_ns.a(nrfx_uarte.o)
+ .text          0x0000000000000000        0x0 app/libtfm_api_ns.a(tfm_ns_interface.o)
+ .data          0x0000000000000000        0x0 app/libtfm_api_ns.a(tfm_ns_interface.o)
+ .bss           0x0000000000000000        0x0 app/libtfm_api_ns.a(tfm_ns_interface.o)
+ .text.tfm_ns_interface_dispatch
+                0x0000000000000000       0x44 app/libtfm_api_ns.a(tfm_ns_interface.o)
+ .text          0x0000000000000000        0x0 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .data          0x0000000000000000        0x0 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .bss           0x0000000000000000        0x0 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
+ .rodata        0x0000000000000000        0x1 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
+ .ARM.extab     0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.svcRtxMessageQueueGetName
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.svcRtxMessageQueueGetCapacity
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.svcRtxMessageQueueGetMsgSize
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.svcRtxMessageQueueGetCount
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.svcRtxMessageQueueGetSpace
+                0x0000000000000000       0x14 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.svcRtxMessageQueueDelete
+                0x0000000000000000       0x74 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.svcRtxMessageQueueReset
+                0x0000000000000000      0x198 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.osMessageQueueGetName
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.osMessageQueueGetCapacity
+                0x0000000000000000       0x34 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.osMessageQueueGetMsgSize
+                0x0000000000000000       0x34 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.osMessageQueueGetCount
+                0x0000000000000000       0x34 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.osMessageQueueGetSpace
+                0x0000000000000000       0x38 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.osMessageQueueReset
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.osMessageQueueDelete
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.svcRtxMemoryPoolGetName
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.svcRtxMemoryPoolGetCapacity
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.svcRtxMemoryPoolGetBlockSize
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.svcRtxMemoryPoolGetCount
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.svcRtxMemoryPoolGetSpace
+                0x0000000000000000       0x14 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.svcRtxMemoryPoolAlloc
+                0x0000000000000000       0x60 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.osRtxMemoryPoolPostProcess
+                0x0000000000000000       0x48 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.svcRtxMemoryPoolFree
+                0x0000000000000000       0x88 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.svcRtxMemoryPoolDelete
+                0x0000000000000000       0xac /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.svcRtxMemoryPoolNew
+                0x0000000000000000      0x224 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.osMemoryPoolNew
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.osMemoryPoolGetName
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.osMemoryPoolAlloc
+                0x0000000000000000       0x6c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.osMemoryPoolFree
+                0x0000000000000000       0x80 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.osMemoryPoolGetCapacity
+                0x0000000000000000       0x34 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.osMemoryPoolGetBlockSize
+                0x0000000000000000       0x34 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.osMemoryPoolGetCount
+                0x0000000000000000       0x34 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.osMemoryPoolGetSpace
+                0x0000000000000000       0x38 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text.osMemoryPoolDelete
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .text.svcRtxSemaphoreGetName
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .text.svcRtxSemaphoreGetCount
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .text.svcRtxSemaphoreNew
+                0x0000000000000000       0x7c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .text.osRtxSemaphorePostProcess
+                0x0000000000000000       0x38 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .text.svcRtxSemaphoreRelease
+                0x0000000000000000       0x54 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .text.svcRtxSemaphoreAcquire
+                0x0000000000000000       0x60 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .text.svcRtxSemaphoreDelete
+                0x0000000000000000       0x60 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .text.osSemaphoreNew
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .text.osSemaphoreGetName
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .text.osSemaphoreAcquire
+                0x0000000000000000       0x60 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .text.osSemaphoreRelease
+                0x0000000000000000       0x68 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .text.osSemaphoreGetCount
+                0x0000000000000000       0x34 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .text.osSemaphoreDelete
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .debug_info    0x0000000000000000     0x3120 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .debug_abbrev  0x0000000000000000      0x4b3 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .debug_loc     0x0000000000000000     0x1131 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .debug_aranges
+                0x0000000000000000       0x80 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .debug_ranges  0x0000000000000000      0x2d8 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .debug_line    0x0000000000000000      0xc31 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .debug_str     0x0000000000000000     0x1441 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .comment       0x0000000000000000       0x76 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .debug_frame   0x0000000000000000      0x144 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_semaphore.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .text.svcRtxMutexGetName
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .text.svcRtxMutexAcquire
+                0x0000000000000000       0xa4 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .text.svcRtxMutexRelease
+                0x0000000000000000       0xac /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .text.svcRtxMutexDelete
+                0x0000000000000000       0xb4 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .text.svcRtxMutexGetOwner
+                0x0000000000000000       0x18 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .text.osMutexGetName
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .text.osMutexAcquire
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .text.osMutexRelease
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .text.osMutexGetOwner
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .text.osMutexDelete
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadGetName
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadGetId
+                0x0000000000000000        0xc /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadGetState
+                0x0000000000000000       0x18 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadGetStackSize
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadGetPriority
+                0x0000000000000000       0x1c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadGetCount
+                0x0000000000000000       0x30 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadFlagsClear
+                0x0000000000000000       0x38 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadFlagsGet
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadGetStackSpace
+                0x0000000000000000       0x54 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadEnumerate
+                0x0000000000000000       0x74 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadDetach
+                0x0000000000000000       0x54 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osRtxThreadListSort
+                0x0000000000000000       0x6c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadFlagsSet
+                0x0000000000000000      0x104 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadSetPriority
+                0x0000000000000000       0xa4 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadResume
+                0x0000000000000000       0x74 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadFlagsWait
+                0x0000000000000000      0x164 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadYield
+                0x0000000000000000       0x84 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadSuspend
+                0x0000000000000000       0xfc /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadTerminate
+                0x0000000000000000      0x194 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadJoin
+                0x0000000000000000       0xb0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadNew
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadGetName
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadGetId
+                0x0000000000000000       0x2c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadGetState
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadGetStackSize
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadGetStackSpace
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadSetPriority
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadGetPriority
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadYield
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadSuspend
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadResume
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadDetach
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadJoin
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadTerminate
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadGetCount
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadEnumerate
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadFlagsSet
+                0x0000000000000000       0x68 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadFlagsClear
+                0x0000000000000000       0x28 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadFlagsGet
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osThreadFlagsWait
+                0x0000000000000000       0x28 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.svcRtxKernelGetState
+                0x0000000000000000        0xc /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.svcRtxKernelLock
+                0x0000000000000000       0x20 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.svcRtxKernelUnlock
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.svcRtxKernelGetTickCount
+                0x0000000000000000        0xc /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.svcRtxKernelGetTickFreq
+                0x0000000000000000        0xc /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.svcRtxKernelGetSysTimerCount
+                0x0000000000000000       0x34 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.svcRtxKernelGetSysTimerFreq
+                0x0000000000000000        0x4 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.svcRtxKernelRestoreLock
+                0x0000000000000000       0x28 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.svcRtxKernelSuspend
+                0x0000000000000000       0x54 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.svcRtxKernelResume
+                0x0000000000000000       0x90 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.svcRtxKernelGetInfo
+                0x0000000000000000       0x30 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.osKernelGetInfo
+                0x0000000000000000       0x64 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.osKernelGetState
+                0x0000000000000000       0x34 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.osKernelLock
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.osKernelUnlock
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.osKernelRestoreLock
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.osKernelSuspend
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.osKernelResume
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.osKernelGetTickCount
+                0x0000000000000000       0x2c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.osKernelGetTickFreq
+                0x0000000000000000       0x2c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.osKernelGetSysTimerCount
+                0x0000000000000000       0x4c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.osKernelGetSysTimerFreq
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .text.OS_Tick_Disable
+                0x0000000000000000       0x2c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .text.OS_Tick_GetClock
+                0x0000000000000000        0xc /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .text.OS_Tick_GetInterval
+                0x0000000000000000        0xc /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .text.OS_Tick_GetCount
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .text.OS_Tick_GetOverflow
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .text.svcRtxTimerGetName
+                0x0000000000000000       0x10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .text.svcRtxTimerStop
+                0x0000000000000000       0x4c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .text.svcRtxTimerIsRunning
+                0x0000000000000000       0x1c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .text.svcRtxTimerNew
+                0x0000000000000000       0x80 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .text.svcRtxTimerDelete
+                0x0000000000000000       0x68 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .text.svcRtxTimerStart
+                0x0000000000000000       0xb8 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .text.osTimerNew
+                0x0000000000000000       0x2c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .text.osTimerGetName
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .text.osTimerStart
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .text.osTimerStop
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .text.osTimerIsRunning
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .text.osTimerDelete
+                0x0000000000000000       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .text          0x0000000000000000        0x0 platform/libplatform_ns.a(system_nrf9160.o)
+ .data          0x0000000000000000        0x0 platform/libplatform_ns.a(system_nrf9160.o)
+ .bss           0x0000000000000000        0x0 platform/libplatform_ns.a(system_nrf9160.o)
+ .text.SystemCoreClockUpdate
+                0x0000000000000000       0x10 platform/libplatform_ns.a(system_nrf9160.o)
+ .text.SystemInit
+                0x0000000000000000       0x10 platform/libplatform_ns.a(system_nrf9160.o)
+ .text.SystemStoreFICRNS
+                0x0000000000000000       0x38 platform/libplatform_ns.a(system_nrf9160.o)
+ .text.SystemLockFICRNS
+                0x0000000000000000       0x24 platform/libplatform_ns.a(system_nrf9160.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtend.o
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtend.o
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtend.o
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtn.o
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtn.o
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtn.o
+ .text          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+ .data          0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000040000 0x00000000000b8000 xr
+RAM              0x0000000020016000 0x000000000002a000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crti.o
+LOAD /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtbegin.o
+LOAD /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+LOAD app/CMakeFiles/tfm_ns.dir/main_ns.o
+LOAD app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/gcc/startup_nrf9160_ns.o
+LOAD app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+LOAD app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+LOAD app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+LOAD app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+LOAD platform/libplatform_ns.a
+LOAD app/libtfm_api_ns.a
+LOAD ns_log/libtfm_ns_log.a
+LOAD /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a
+LOAD secure_fw/libtfm_s_veneers.a
+LOAD platform/libplatform_ns.a
+START GROUP
+LOAD /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/libgcc.a
+LOAD /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/libgcc.a
+LOAD /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a
+END GROUP
+LOAD /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtend.o
+LOAD /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtn.o
+                0x0000000000001000                __heap_size__ = 0x1000
+                0x0000000000000140                __psp_stack_size__ = 0x140
+                0x00000000000000a0                __msp_stack_size__ = 0xa0
+START GROUP
+LOAD /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/libgcc.a
+LOAD /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc.a
+LOAD /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libm.a
+LOAD /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a
+END GROUP
+
+.text           0x0000000000040000     0x2920
+ *(.vectors)
+ .vectors       0x0000000000040000      0x144 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/gcc/startup_nrf9160_ns.o
+                0x0000000000040000                __Vectors
+                0x0000000000040144                __Vectors_End = .
+                0x0000000000040144                __Vectors_Size = (__Vectors_End - __Vectors)
+                0x0000000020018700                __end__ = .
+ *(.text*)
+ .text          0x0000000000040144       0x40 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtbegin.o
+ .text          0x0000000000040184       0x74 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+                0x0000000000040184                _mainCRTStartup
+                0x0000000000040184                _start
+ .text.tfm_ns_platform_init
+                0x00000000000401f8        0xa app/CMakeFiles/tfm_ns.dir/main_ns.o
+                0x00000000000401f8                tfm_ns_platform_init
+ *fill*         0x0000000000040202        0x2 
+ .text.startup.main
+                0x0000000000040204       0x24 app/CMakeFiles/tfm_ns.dir/main_ns.o
+                0x0000000000040204                main
+ .text          0x0000000000040228       0xd4 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/gcc/startup_nrf9160_ns.o
+                0x0000000000040228                Reset_Handler
+                0x0000000000040264                Default_Handler
+                0x0000000000040266                NMI_Handler
+                0x000000000004026a                HardFault_Handler
+                0x000000000004026e                MemManage_Handler
+                0x0000000000040272                BusFault_Handler
+                0x0000000000040276                UsageFault_Handler
+                0x000000000004027e                DebugMon_Handler
+                0x000000000004028a                CLOCK_POWER_IRQHandler
+                0x000000000004028e                UARTE0_SPIM0_SPIS0_TWIM0_TWIS0_IRQHandler
+                0x0000000000040292                UARTE1_SPIM1_SPIS1_TWIM1_TWIS1_IRQHandler
+                0x0000000000040296                UARTE2_SPIM2_SPIS2_TWIM2_TWIS2_IRQHandler
+                0x000000000004029a                UARTE3_SPIM3_SPIS3_TWIM3_TWIS3_IRQHandler
+                0x000000000004029e                SAADC_IRQHandler
+                0x00000000000402a2                TIMER0_IRQHandler
+                0x00000000000402a6                TIMER1_Handler
+                0x00000000000402aa                TIMER2_IRQHandler
+                0x00000000000402ae                RTC0_IRQHandler
+                0x00000000000402b2                RTC1_IRQHandler
+                0x00000000000402b6                WDT_IRQHandler
+                0x00000000000402ba                EGU0_IRQHandler
+                0x00000000000402be                EGU1_IRQHandler
+                0x00000000000402c2                EGU2_IRQHandler
+                0x00000000000402c6                EGU3_IRQHandler
+                0x00000000000402ca                EGU4_IRQHandler
+                0x00000000000402ce                EGU5_IRQHandler
+                0x00000000000402d2                PWM0_IRQHandler
+                0x00000000000402d6                PWM1_IRQHandler
+                0x00000000000402da                PWM2_IRQHandler
+                0x00000000000402de                PWM3_IRQHandler
+                0x00000000000402e2                PDM_IRQHandler
+                0x00000000000402e6                I2S_IRQHandler
+                0x00000000000402ea                IPC_IRQHandler
+                0x00000000000402ee                FPU_IRQHandler
+                0x00000000000402f2                GPIOTE1_IRQHandler
+                0x00000000000402f6                KMU_IRQHandler
+ .text.TZ_InitContextSystem_S
+                0x00000000000402fc        0x4 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+                0x00000000000402fc                TZ_InitContextSystem_S
+ .text.TZ_AllocModuleContext_S
+                0x0000000000040300        0x4 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+                0x0000000000040300                TZ_AllocModuleContext_S
+ .text.TZ_FreeModuleContext_S
+                0x0000000000040304        0x4 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+                0x0000000000040304                TZ_FreeModuleContext_S
+ .text.TZ_LoadContext_S
+                0x0000000000040308        0x4 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+                0x0000000000040308                TZ_LoadContext_S
+ .text.TZ_StoreContext_S
+                0x000000000004030c        0x4 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+                0x000000000004030c                TZ_StoreContext_S
+ .text.osRtxIdleThread
+                0x0000000000040310        0x2 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+                0x0000000000040310                osRtxIdleThread
+ .text.osRtxErrorNotify
+                0x0000000000040312        0x2 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+                0x0000000000040312                osRtxErrorNotify
+ .text.software_init_hook
+                0x0000000000040314        0x4 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+                0x0000000000040314                software_init_hook
+ .text.os_wrapper_mutex_create
+                0x0000000000040318       0x1a app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+                0x0000000000040318                os_wrapper_mutex_create
+ *fill*         0x0000000000040332        0x2 
+ .text.stdio_output_string
+                0x0000000000040334       0x28 platform/libplatform_ns.a(uart_stdout.o)
+                0x0000000000040334                stdio_output_string
+ .text.stdio_init
+                0x000000000004035c       0x2c platform/libplatform_ns.a(uart_stdout.o)
+                0x000000000004035c                stdio_init
+ .text.ARM_USART_GetVersion
+                0x0000000000040388       0x20 platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART_GetCapabilities
+                0x00000000000403a8        0x4 platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART_Transfer
+                0x00000000000403ac        0x6 platform/libplatform_ns.a(Driver_USART.o)
+ *fill*         0x00000000000403b2        0x2 
+ .text.ARM_USARTx_Control
+                0x00000000000403b4      0x178 platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART_GetStatus
+                0x000000000004052c        0xc platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART_SetModemControl
+                0x0000000000040538        0x6 platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART_GetModemStatus
+                0x000000000004053e        0xc platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART0_PowerControl
+                0x000000000004054a        0xc platform/libplatform_ns.a(Driver_USART.o)
+ *fill*         0x0000000000040556        0x2 
+ .text.ARM_USART0_GetTxCount
+                0x0000000000040558        0xc platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART0_GetRxCount
+                0x0000000000040564        0xc platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART0_Control
+                0x0000000000040570        0xc platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART0_Uninitialize
+                0x000000000004057c       0x14 platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USARTx_Send
+                0x0000000000040590       0x7c platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART0_Send
+                0x000000000004060c        0xc platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USARTx_Initialize.isra.0
+                0x0000000000040618       0x3c platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART0_Initialize
+                0x0000000000040654        0xc platform/libplatform_ns.a(Driver_USART.o)
+ .text.ARM_USART0_Receive
+                0x0000000000040660       0x3c platform/libplatform_ns.a(Driver_USART.o)
+ .text.nrfx_uarte_init
+                0x000000000004069c      0x1f0 platform/libplatform_ns.a(nrfx_uarte.o)
+                0x000000000004069c                nrfx_uarte_init
+ .text.nrfx_uarte_uninit
+                0x000000000004088c      0x15c platform/libplatform_ns.a(nrfx_uarte.o)
+                0x000000000004088c                nrfx_uarte_uninit
+ .text.nrfx_uarte_tx
+                0x00000000000409e8       0x94 platform/libplatform_ns.a(nrfx_uarte.o)
+                0x00000000000409e8                nrfx_uarte_tx
+ .text.nrfx_uarte_rx
+                0x0000000000040a7c       0xe8 platform/libplatform_ns.a(nrfx_uarte.o)
+                0x0000000000040a7c                nrfx_uarte_rx
+ .text.tfm_ns_interface_init
+                0x0000000000040b64       0x1c app/libtfm_api_ns.a(tfm_ns_interface.o)
+                0x0000000000040b64                tfm_ns_interface_init
+ .text._tfm_flush_formatted_buffer
+                0x0000000000040b80       0x1c ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .text._tfm_dec_num_output
+                0x0000000000040b9c       0x5e ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .text._tfm_hex_num_output
+                0x0000000000040bfa       0x3a ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .text._tfm_string_output
+                0x0000000000040c34       0x1a ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ *fill*         0x0000000000040c4e        0x2 
+ .text.tfm_log_printf
+                0x0000000000040c50      0x110 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+                0x0000000000040c50                tfm_log_printf
+ .text          0x0000000000040d60      0x124 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
+                0x0000000000040d60                SVC_Handler
+                0x0000000000040dfc                PendSV_Handler
+                0x0000000000040e0a                SysTick_Handler
+                0x0000000000040e18                Sys_Context
+ .text.osRtxTick_Handler
+                0x0000000000040e84       0x74 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+                0x0000000000040e84                osRtxTick_Handler
+ .text.osRtxPendSV_Handler
+                0x0000000000040ef8       0xa8 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+                0x0000000000040ef8                osRtxPendSV_Handler
+ .text.osRtxPostProcess
+                0x0000000000040fa0       0x74 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+                0x0000000000040fa0                osRtxPostProcess
+ .text.svcRtxMessageQueueNew
+                0x0000000000041014      0x16c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.svcRtxMessageQueueGet
+                0x0000000000041180      0x188 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.svcRtxMessageQueuePut
+                0x0000000000041308      0x108 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.osRtxMessageQueuePostProcess
+                0x0000000000041410      0x154 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .text.osMessageQueueNew
+                0x0000000000041564       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+                0x0000000000041564                osMessageQueueNew
+ .text.osMessageQueuePut
+                0x0000000000041588       0x7c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+                0x0000000000041588                osMessageQueuePut
+ .text.osMessageQueueGet
+                0x0000000000041604       0xbc /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+                0x0000000000041604                osMessageQueueGet
+ .text.osRtxMemoryPoolInit
+                0x00000000000416c0       0x48 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+                0x00000000000416c0                osRtxMemoryPoolInit
+ .text.osRtxMemoryPoolAlloc
+                0x0000000000041708       0x38 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+                0x0000000000041708                osRtxMemoryPoolAlloc
+ .text.osRtxMemoryPoolFree
+                0x0000000000041740       0x4c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+                0x0000000000041740                osRtxMemoryPoolFree
+ .text.osRtxMemoryInit
+                0x000000000004178c       0x3c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+                0x000000000004178c                osRtxMemoryInit
+ .text.osRtxMemoryAlloc
+                0x00000000000417c8       0x7c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+                0x00000000000417c8                osRtxMemoryAlloc
+ .text.osRtxMemoryFree
+                0x0000000000041844       0x78 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+                0x0000000000041844                osRtxMemoryFree
+ .text.svcRtxMutexNew
+                0x00000000000418bc       0x6c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .text.osRtxMutexOwnerRelease
+                0x0000000000041928       0x44 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+                0x0000000000041928                osRtxMutexOwnerRelease
+ .text.osMutexNew
+                0x000000000004196c       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+                0x000000000004196c                osMutexNew
+ .text.osThreadExit
+                0x0000000000041990        0xc /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                0x0000000000041990                osThreadExit
+ .text.osRtxThreadFree
+                0x000000000004199c       0x60 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osRtxThreadPostProcess
+                0x00000000000419fc      0x100 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osRtxThreadListPut
+                0x0000000000041afc       0x44 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                0x0000000000041afc                osRtxThreadListPut
+ .text.osRtxThreadListGet
+                0x0000000000041b40       0x14 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                0x0000000000041b40                osRtxThreadListGet
+ .text.osRtxThreadListRemove
+                0x0000000000041b54       0x14 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                0x0000000000041b54                osRtxThreadListRemove
+ .text.osRtxThreadReadyPut
+                0x0000000000041b68       0x54 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                0x0000000000041b68                osRtxThreadReadyPut
+ .text.osRtxThreadDelayTick
+                0x0000000000041bbc       0x78 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                0x0000000000041bbc                osRtxThreadDelayTick
+ .text.osRtxThreadRegPtr
+                0x0000000000041c34        0x8 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                0x0000000000041c34                osRtxThreadRegPtr
+ .text.osRtxThreadStackCheck
+                0x0000000000041c3c       0x28 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                0x0000000000041c3c                osRtxThreadStackCheck
+ .text.osRtxThreadSwitch
+                0x0000000000041c64       0x14 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                0x0000000000041c64                osRtxThreadSwitch
+ .text.osRtxThreadDispatch
+                0x0000000000041c78      0x120 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                0x0000000000041c78                osRtxThreadDispatch
+ .text.osRtxThreadWaitExit
+                0x0000000000041d98       0x98 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                0x0000000000041d98                osRtxThreadWaitExit
+ .text.svcRtxThreadNew
+                0x0000000000041e30      0x2b0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.svcRtxThreadExit
+                0x00000000000420e0       0xf0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .text.osRtxThreadWaitEnter
+                0x00000000000421d0       0xb4 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                0x00000000000421d0                osRtxThreadWaitEnter
+ .text.osRtxThreadStartup
+                0x0000000000042284       0x40 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                0x0000000000042284                osRtxThreadStartup
+ .text.svcRtxKernelInitialize
+                0x00000000000422c4      0x16c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.svcRtxKernelStart
+                0x0000000000042430       0xa0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .text.osRtxKernelPreInit
+                0x00000000000424d0        0x4 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+                0x00000000000424d0                osRtxKernelPreInit
+ .text.osKernelInitialize
+                0x00000000000424d4       0x2c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+                0x00000000000424d4                osKernelInitialize
+ .text.osKernelStart
+                0x0000000000042500       0x24 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+                0x0000000000042500                osKernelStart
+ .text.OS_Tick_Setup
+                0x0000000000042524       0x48 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+                0x0000000000042524                OS_Tick_Setup
+ .text.OS_Tick_Enable
+                0x000000000004256c       0x2c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+                0x000000000004256c                OS_Tick_Enable
+ .text.OS_Tick_AcknowledgeIRQ
+                0x0000000000042598        0xc /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+                0x0000000000042598                OS_Tick_AcknowledgeIRQ
+ .text.OS_Tick_GetIRQn
+                0x00000000000425a4        0x8 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+                0x00000000000425a4                OS_Tick_GetIRQn
+ .text.osRtxTimerTick
+                0x00000000000425ac       0xc8 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .text.osRtxTimerThread
+                0x0000000000042674       0x3c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+                0x0000000000042674                osRtxTimerThread
+ .text.exit     0x00000000000426b0       0x28 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+                0x00000000000426b0                exit
+ .text.__libc_init_array
+                0x00000000000426d8       0x48 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+                0x00000000000426d8                __libc_init_array
+ .text.memcpy   0x0000000000042720       0x1a /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000000042720                memcpy
+ .text.memset   0x000000000004273a       0x10 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+                0x000000000004273a                memset
+ *fill*         0x000000000004274a        0x2 
+ .text._exit    0x000000000004274c        0x4 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+                0x000000000004274c                _exit
+ *(.init)
+ .init          0x0000000000042750        0x4 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crti.o
+                0x0000000000042750                _init
+ .init          0x0000000000042754        0x8 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtn.o
+ *(.fini)
+ .fini          0x000000000004275c        0x4 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crti.o
+                0x000000000004275c                _fini
+ .fini          0x0000000000042760        0x8 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.main.str1.1
+                0x0000000000042768       0x20 app/CMakeFiles/tfm_ns.dir/main_ns.o
+ .rodata        0x0000000000042788       0xa0 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+                0x0000000000042788                os_cb_sections
+                0x00000000000427c0                osRtxConfig
+ .rodata.osRtxUserSVC
+                0x0000000000042828        0x4 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+                0x0000000000042828                osRtxUserSVC
+ .rodata.os_idle_thread_attr
+                0x000000000004282c       0x24 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .rodata.os_timer_mq_attr
+                0x0000000000042850       0x18 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .rodata.os_timer_thread_attr
+                0x0000000000042868       0x24 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .rodata.DriverVersion
+                0x000000000004288c        0x4 platform/libplatform_ns.a(Driver_USART.o)
+ .rodata.Driver_USART0
+                0x0000000000042890       0x38 platform/libplatform_ns.a(Driver_USART.o)
+                0x0000000000042890                Driver_USART0
+ *fill*         0x00000000000428c8        0x8 
+ .rodata.delay_machine_code.5642
+                0x00000000000428d0        0x6 platform/libplatform_ns.a(nrfx_uarte.o)
+ .rodata.tfm_log_printf.str1.1
+                0x00000000000428d6       0x15 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .rodata.hex_digits_lo
+                0x00000000000428eb       0x10 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+                0x00000000000428eb                hex_digits_lo
+ .rodata.hex_digits_up
+                0x00000000000428fb       0x10 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+                0x00000000000428fb                hex_digits_up
+ *fill*         0x000000000004290b        0x1 
+ .rodata.str1.4
+                0x000000000004290c        0xb /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ *fill*         0x0000000000042917        0x1 
+ .rodata._global_impure_ptr
+                0x0000000000042918        0x4 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+                0x0000000000042918                _global_impure_ptr
+ *(.eh_frame*)
+ .eh_frame      0x000000000004291c        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtbegin.o
+ .eh_frame      0x000000000004291c        0x4 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtend.o
+
+.glue_7         0x0000000000042920        0x0
+ .glue_7        0x0000000000042920        0x0 linker stubs
+
+.glue_7t        0x0000000000042920        0x0
+ .glue_7t       0x0000000000042920        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000042920        0x0
+ .vfp11_veneer  0x0000000000042920        0x0 linker stubs
+
+.v4_bx          0x0000000000042920        0x0
+ .v4_bx         0x0000000000042920        0x0 linker stubs
+
+.iplt           0x0000000000042920        0x0
+ .iplt          0x0000000000042920        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000042920                __exidx_start = .
+
+.ARM.exidx      0x0000000000042920        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0000000000042920        0x8 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+ .ARM.exidx     0x0000000000042928        0x0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
+                                         0x20 (size before relaxing)
+                0x0000000000042928                __exidx_end = .
+
+.rel.dyn        0x0000000000042928        0x0
+ .rel.iplt      0x0000000000042928        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtbegin.o
+
+.copy.table     0x0000000000042928       0x18
+                0x0000000000042928                . = ALIGN (0x4)
+                0x0000000000042928                __copy_table_start__ = .
+                0x0000000000042928        0x4 LONG 0x42950 __etext
+                0x000000000004292c        0x4 LONG 0x20016000 __data_start__
+                0x0000000000042930        0x4 LONG 0x150 (__data_end__ - __data_start__)
+                0x0000000000042934        0x4 LONG 0x0 DEFINED (__etext2)?__etext2:0x0
+                0x0000000000042938        0x4 LONG 0x0 DEFINED (__data2_start__)?__data2_start__:0x0
+                0x000000000004293c        0x4 LONG 0x0 DEFINED (__data2_start__)?(__data2_end__ - __data2_start__):0x0
+                0x0000000000042940                __copy_table_end__ = .
+
+.zero.table     0x0000000000042940       0x10
+                0x0000000000042940                . = ALIGN (0x4)
+                0x0000000000042940                __zero_table_start__ = .
+                0x0000000000042940        0x4 LONG 0x20016150 __bss_start__
+                0x0000000000042944        0x4 LONG 0x23c0 (__bss_end__ - __bss_start__)
+                0x0000000000042948        0x4 LONG 0x0 DEFINED (__bss2_start__)?__bss2_start__:0x0
+                0x000000000004294c        0x4 LONG 0x0 DEFINED (__bss2_start__)?(__bss2_end__ - __bss2_start__):0x0
+                0x0000000000042950                __zero_table_end__ = .
+                0x0000000000042950                __etext = .
+
+.data           0x0000000020016000      0x150 load address 0x0000000000042950
+                0x0000000020016000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.UART0_Resources
+                0x0000000020016000       0x20 platform/libplatform_ns.a(Driver_USART.o)
+ .data.UART0_initial_config
+                0x0000000020016020       0x20 platform/libplatform_ns.a(Driver_USART.o)
+ .data.os       0x0000000020016040       0xa4 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+                0x0000000020016040                osRtxInfo
+ .data.SystemCoreClock
+                0x00000000200160e4        0x4 platform/libplatform_ns.a(system_nrf9160.o)
+                0x00000000200160e4                SystemCoreClock
+ .data.impure_data
+                0x00000000200160e8       0x60 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+                0x0000000020016148                . = ALIGN (0x4)
+                0x0000000020016148                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x0000000020016148                PROVIDE (__preinit_array_end = .)
+                0x0000000020016148                . = ALIGN (0x4)
+                0x0000000020016148                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x0000000020016148        0x4 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtbegin.o
+                0x000000002001614c                PROVIDE (__init_array_end = .)
+                0x000000002001614c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x000000002001614c        0x4 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x0000000020016150                . = ALIGN (0x4)
+                0x0000000020016150                __data_end__ = .
+
+.igot.plt       0x0000000020016150        0x0 load address 0x0000000000042aa0
+ .igot.plt      0x0000000020016150        0x0 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtbegin.o
+
+.bss            0x0000000020016150     0x23c0 load address 0x0000000000042aa0
+                0x0000000020016150                . = ALIGN (0x4)
+                0x0000000020016150                __bss_start__ = .
+ *(.bss*)
+ .bss           0x0000000020016150       0x1c /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtbegin.o
+ *fill*         0x000000002001616c        0x4 
+ .bss.os        0x0000000020016170     0x2040 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .bss.os.msgqueue.cb
+                0x00000000200181b0       0x34 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .bss.os.msgqueue.mem
+                0x00000000200181e4       0x50 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .bss.os.thread.cb
+                0x0000000020018234       0x88 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ *fill*         0x00000000200182bc        0x4 
+ .bss.os.thread.stack
+                0x00000000200182c0      0x200 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .bss.m_cb      0x00000000200184c0       0x48 platform/libplatform_ns.a(nrfx_uarte.o)
+ .bss.ns_lock_handle
+                0x0000000020018508        0x4 app/libtfm_api_ns.a(tfm_ns_interface.o)
+ .bss           0x000000002001850c        0x1 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ *(COMMON)
+                0x0000000020018510                . = ALIGN (0x4)
+ *fill*         0x000000002001850d        0x3 
+                0x0000000020018510                __bss_end__ = .
+                0x00000000000023c0                bss_size = (__bss_end__ - __bss_start__)
+
+.msp_stack      0x0000000020018520       0xa0 load address 0x0000000000044e80
+                0x00000000200185c0                . = (. + __msp_stack_size__)
+ *fill*         0x0000000020018520       0xa0 
+                0x0000000020018520                Image$$ARM_LIB_STACK_MSP$$ZI$$Base = ADDR (.msp_stack)
+                0x00000000200185c0                Image$$ARM_LIB_STACK_MSP$$ZI$$Limit = (ADDR (.msp_stack) + SIZEOF (.msp_stack))
+
+.psp_stack      0x00000000200185c0      0x140 load address 0x0000000000044f20
+                0x0000000020018700                . = (. + __psp_stack_size__)
+ *fill*         0x00000000200185c0      0x140 
+                0x00000000200185c0                Image$$ARM_LIB_STACK$$ZI$$Base = ADDR (.psp_stack)
+                0x0000000020018700                Image$$ARM_LIB_STACK$$ZI$$Limit = (ADDR (.psp_stack) + SIZEOF (.psp_stack))
+
+.heap           0x0000000020018700     0x1000 load address 0x0000000000045060
+                0x0000000020018700                __end__ = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000020018700                __HeapBase = .
+                0x0000000020019700                . = (. + __heap_size__)
+ *fill*         0x0000000020018700     0x1000 
+                0x0000000020019700                __HeapLimit = .
+                0x0000000020019700                __heap_limit = .
+                0x0000000020018700                PROVIDE (__stack = Image$$ARM_LIB_STACK$$ZI$$Limit)
+OUTPUT(bin/tfm_ns.axf elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x2e
+ .ARM.attributes
+                0x0000000000000000       0x22 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crti.o
+ .ARM.attributes
+                0x0000000000000022       0x32 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtbegin.o
+ .ARM.attributes
+                0x0000000000000054       0x20 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+ .ARM.attributes
+                0x0000000000000074       0x32 app/CMakeFiles/tfm_ns.dir/main_ns.o
+ .ARM.attributes
+                0x00000000000000a6       0x20 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/gcc/startup_nrf9160_ns.o
+ .ARM.attributes
+                0x00000000000000c6       0x32 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+ .ARM.attributes
+                0x00000000000000f8       0x32 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+ .ARM.attributes
+                0x000000000000012a       0x32 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .ARM.attributes
+                0x000000000000015c       0x32 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .ARM.attributes
+                0x000000000000018e       0x32 platform/libplatform_ns.a(uart_stdout.o)
+ .ARM.attributes
+                0x00000000000001c0       0x32 platform/libplatform_ns.a(Driver_USART.o)
+ .ARM.attributes
+                0x00000000000001f2       0x32 platform/libplatform_ns.a(nrfx_uarte.o)
+ .ARM.attributes
+                0x0000000000000224       0x32 app/libtfm_api_ns.a(tfm_ns_interface.o)
+ .ARM.attributes
+                0x0000000000000256       0x32 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .ARM.attributes
+                0x0000000000000288       0x20 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
+ .ARM.attributes
+                0x00000000000002a8       0x32 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+ .ARM.attributes
+                0x00000000000002da       0x32 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .ARM.attributes
+                0x000000000000030c       0x32 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .ARM.attributes
+                0x000000000000033e       0x32 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+ .ARM.attributes
+                0x0000000000000370       0x32 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .ARM.attributes
+                0x00000000000003a2       0x32 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .ARM.attributes
+                0x00000000000003d4       0x32 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .ARM.attributes
+                0x0000000000000406       0x32 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .ARM.attributes
+                0x0000000000000438       0x32 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .ARM.attributes
+                0x000000000000046a       0x32 platform/libplatform_ns.a(system_nrf9160.o)
+ .ARM.attributes
+                0x000000000000049c       0x32 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000000004ce       0x32 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000500       0x32 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000532       0x32 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000000000000564       0x32 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000596       0x32 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtend.o
+ .ARM.attributes
+                0x00000000000005c8       0x22 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp/crtn.o
+ .ARM.attributes
+                0x00000000000005ea       0x32 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+
+.comment        0x0000000000000000       0xee
+ .comment       0x0000000000000000       0x79 app/CMakeFiles/tfm_ns.dir/main_ns.o
+                                         0x7a (size before relaxing)
+ .comment       0x0000000000000079       0x7a app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+ .comment       0x0000000000000079       0x7a app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+ .comment       0x0000000000000079       0x7a app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .comment       0x0000000000000079       0x7a app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .comment       0x0000000000000079       0x7a platform/libplatform_ns.a(uart_stdout.o)
+ .comment       0x0000000000000079       0x7a platform/libplatform_ns.a(Driver_USART.o)
+ .comment       0x0000000000000079       0x7a platform/libplatform_ns.a(nrfx_uarte.o)
+ .comment       0x0000000000000079       0x7a app/libtfm_api_ns.a(tfm_ns_interface.o)
+ .comment       0x0000000000000079       0x7a ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .comment       0x0000000000000079       0x75 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+                                         0x76 (size before relaxing)
+ .comment       0x00000000000000ee       0x76 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .comment       0x00000000000000ee       0x76 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .comment       0x00000000000000ee       0x76 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+ .comment       0x00000000000000ee       0x76 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .comment       0x00000000000000ee       0x76 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .comment       0x00000000000000ee       0x76 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .comment       0x00000000000000ee       0x76 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .comment       0x00000000000000ee       0x76 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .comment       0x00000000000000ee       0x7a platform/libplatform_ns.a(system_nrf9160.o)
+
+.debug_info     0x0000000000000000    0x28c45
+ .debug_info    0x0000000000000000      0x173 app/CMakeFiles/tfm_ns.dir/main_ns.o
+ .debug_info    0x0000000000000173       0x26 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/gcc/startup_nrf9160_ns.o
+ .debug_info    0x0000000000000199      0x141 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_info    0x00000000000002da     0x1090 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+ .debug_info    0x000000000000136a     0x12c9 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .debug_info    0x0000000000002633      0xbf9 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .debug_info    0x000000000000322c     0x106b platform/libplatform_ns.a(uart_stdout.o)
+ .debug_info    0x0000000000004297     0x23d9 platform/libplatform_ns.a(Driver_USART.o)
+ .debug_info    0x0000000000006670     0x40ae platform/libplatform_ns.a(nrfx_uarte.o)
+ .debug_info    0x000000000000a71e      0x20e app/libtfm_api_ns.a(tfm_ns_interface.o)
+ .debug_info    0x000000000000a92c      0x583 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .debug_info    0x000000000000aeaf       0x26 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
+ .debug_info    0x000000000000aed5     0x2487 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+ .debug_info    0x000000000000d35c     0x442b /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .debug_info    0x0000000000011787     0x3fb7 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .debug_info    0x000000000001573e     0x1ffe /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+ .debug_info    0x000000000001773c     0x2b74 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .debug_info    0x000000000001a2b0     0x6ec8 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .debug_info    0x0000000000021178     0x3ed0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .debug_info    0x0000000000025048      0x688 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .debug_info    0x00000000000256d0     0x2c72 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .debug_info    0x0000000000028342      0x903 platform/libplatform_ns.a(system_nrf9160.o)
+
+.debug_abbrev   0x0000000000000000     0x42c5
+ .debug_abbrev  0x0000000000000000       0xa1 app/CMakeFiles/tfm_ns.dir/main_ns.o
+ .debug_abbrev  0x00000000000000a1       0x14 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/gcc/startup_nrf9160_ns.o
+ .debug_abbrev  0x00000000000000b5       0xbb app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_abbrev  0x0000000000000170      0x192 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+ .debug_abbrev  0x0000000000000302      0x1c6 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .debug_abbrev  0x00000000000004c8      0x23f app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .debug_abbrev  0x0000000000000707      0x323 platform/libplatform_ns.a(uart_stdout.o)
+ .debug_abbrev  0x0000000000000a2a      0x559 platform/libplatform_ns.a(Driver_USART.o)
+ .debug_abbrev  0x0000000000000f83      0x49b platform/libplatform_ns.a(nrfx_uarte.o)
+ .debug_abbrev  0x000000000000141e      0x108 app/libtfm_api_ns.a(tfm_ns_interface.o)
+ .debug_abbrev  0x0000000000001526      0x273 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .debug_abbrev  0x0000000000001799       0x14 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
+ .debug_abbrev  0x00000000000017ad      0x3f1 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+ .debug_abbrev  0x0000000000001b9e      0x578 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .debug_abbrev  0x0000000000002116      0x572 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .debug_abbrev  0x0000000000002688      0x33d /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+ .debug_abbrev  0x00000000000029c5      0x48a /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .debug_abbrev  0x0000000000002e4f      0x5de /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .debug_abbrev  0x000000000000342d      0x5cb /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .debug_abbrev  0x00000000000039f8      0x1b0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .debug_abbrev  0x0000000000003ba8      0x525 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .debug_abbrev  0x00000000000040cd      0x1f8 platform/libplatform_ns.a(system_nrf9160.o)
+
+.debug_aranges  0x0000000000000000      0x9d0
+ .debug_aranges
+                0x0000000000000000       0x30 app/CMakeFiles/tfm_ns.dir/main_ns.o
+ .debug_aranges
+                0x0000000000000030       0x20 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/gcc/startup_nrf9160_ns.o
+ .debug_aranges
+                0x0000000000000050       0x28 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_aranges
+                0x0000000000000078       0x28 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+ .debug_aranges
+                0x00000000000000a0       0x20 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .debug_aranges
+                0x00000000000000c0       0xa8 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .debug_aranges
+                0x0000000000000168       0x38 platform/libplatform_ns.a(uart_stdout.o)
+ .debug_aranges
+                0x00000000000001a0       0xd8 platform/libplatform_ns.a(Driver_USART.o)
+ .debug_aranges
+                0x0000000000000278       0x80 platform/libplatform_ns.a(nrfx_uarte.o)
+ .debug_aranges
+                0x00000000000002f8       0x28 app/libtfm_api_ns.a(tfm_ns_interface.o)
+ .debug_aranges
+                0x0000000000000320       0x40 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .debug_aranges
+                0x0000000000000360       0x20 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
+ .debug_aranges
+                0x0000000000000380       0x30 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+ .debug_aranges
+                0x00000000000003b0       0xc0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .debug_aranges
+                0x0000000000000470       0xc8 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .debug_aranges
+                0x0000000000000538       0x30 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+ .debug_aranges
+                0x0000000000000568       0x80 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .debug_aranges
+                0x00000000000005e8      0x1e0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .debug_aranges
+                0x00000000000007c8       0xf0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .debug_aranges
+                0x00000000000008b8       0x60 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .debug_aranges
+                0x0000000000000918       0x88 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .debug_aranges
+                0x00000000000009a0       0x30 platform/libplatform_ns.a(system_nrf9160.o)
+
+.debug_ranges   0x0000000000000000     0x31f8
+ .debug_ranges  0x0000000000000000       0x20 app/CMakeFiles/tfm_ns.dir/main_ns.o
+ .debug_ranges  0x0000000000000020       0x18 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_ranges  0x0000000000000038       0x18 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+ .debug_ranges  0x0000000000000050       0x10 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .debug_ranges  0x0000000000000060       0x98 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .debug_ranges  0x00000000000000f8       0x40 platform/libplatform_ns.a(uart_stdout.o)
+ .debug_ranges  0x0000000000000138      0x1d0 platform/libplatform_ns.a(Driver_USART.o)
+ .debug_ranges  0x0000000000000308      0x928 platform/libplatform_ns.a(nrfx_uarte.o)
+ .debug_ranges  0x0000000000000c30       0x18 app/libtfm_api_ns.a(tfm_ns_interface.o)
+ .debug_ranges  0x0000000000000c48       0x60 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .debug_ranges  0x0000000000000ca8       0xe8 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+ .debug_ranges  0x0000000000000d90      0x5f8 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .debug_ranges  0x0000000000001388      0x5a8 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .debug_ranges  0x0000000000001930       0xa0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+ .debug_ranges  0x00000000000019d0      0x180 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .debug_ranges  0x0000000000001b50     0x1048 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .debug_ranges  0x0000000000002b98      0x3f0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .debug_ranges  0x0000000000002f88       0x50 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .debug_ranges  0x0000000000002fd8      0x200 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .debug_ranges  0x00000000000031d8       0x20 platform/libplatform_ns.a(system_nrf9160.o)
+
+.debug_line     0x0000000000000000     0xe5ef
+ .debug_line    0x0000000000000000      0x29e app/CMakeFiles/tfm_ns.dir/main_ns.o
+ .debug_line    0x000000000000029e       0xf5 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/gcc/startup_nrf9160_ns.o
+ .debug_line    0x0000000000000393      0x1aa app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_line    0x000000000000053d      0x212 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+ .debug_line    0x000000000000074f      0x1d5 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .debug_line    0x0000000000000924      0x540 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .debug_line    0x0000000000000e64      0x2db platform/libplatform_ns.a(uart_stdout.o)
+ .debug_line    0x000000000000113f      0x989 platform/libplatform_ns.a(Driver_USART.o)
+ .debug_line    0x0000000000001ac8     0x1957 platform/libplatform_ns.a(nrfx_uarte.o)
+ .debug_line    0x000000000000341f      0x26f app/libtfm_api_ns.a(tfm_ns_interface.o)
+ .debug_line    0x000000000000368e      0x4bd ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .debug_line    0x0000000000003b4b       0xc2 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
+ .debug_line    0x0000000000003c0d      0x57a /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+ .debug_line    0x0000000000004187     0x1b10 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .debug_line    0x0000000000005c97     0x1564 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .debug_line    0x00000000000071fb      0x5b1 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+ .debug_line    0x00000000000077ac      0xc29 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .debug_line    0x00000000000083d5     0x3c28 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .debug_line    0x000000000000bffd     0x138b /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .debug_line    0x000000000000d388      0x376 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .debug_line    0x000000000000d6fe      0xcab /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .debug_line    0x000000000000e3a9      0x246 platform/libplatform_ns.a(system_nrf9160.o)
+
+.debug_str      0x0000000000000000     0x590d
+ .debug_str     0x0000000000000000      0x256 app/CMakeFiles/tfm_ns.dir/main_ns.o
+                                        0x297 (size before relaxing)
+ .debug_str     0x0000000000000256       0x90 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/gcc/startup_nrf9160_ns.o
+                                         0xd0 (size before relaxing)
+ .debug_str     0x00000000000002e6       0xee app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+                                        0x2ae (size before relaxing)
+ .debug_str     0x00000000000003d4      0x9ab app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+                                        0xc5e (size before relaxing)
+ .debug_str     0x0000000000000d7f      0x2a1 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+                                        0xe8b (size before relaxing)
+ .debug_str     0x0000000000001020      0x4c2 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+                                        0xb47 (size before relaxing)
+ .debug_str     0x00000000000014e2      0x679 platform/libplatform_ns.a(uart_stdout.o)
+                                        0xa0f (size before relaxing)
+ .debug_str     0x0000000000001b5b      0xd2f platform/libplatform_ns.a(Driver_USART.o)
+                                       0x16fc (size before relaxing)
+ .debug_str     0x000000000000288a     0x1046 platform/libplatform_ns.a(nrfx_uarte.o)
+                                       0x1bdf (size before relaxing)
+ .debug_str     0x00000000000038d0       0x91 app/libtfm_api_ns.a(tfm_ns_interface.o)
+                                        0x2d5 (size before relaxing)
+ .debug_str     0x0000000000003961      0x118 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+                                        0x34e (size before relaxing)
+ .debug_str     0x0000000000003a79       0x6e /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(irq_armv8mml.o)
+ .debug_str     0x0000000000003ae7      0x2ef /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+                                       0x12ca (size before relaxing)
+ .debug_str     0x0000000000003dd6      0x534 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+                                       0x1620 (size before relaxing)
+ .debug_str     0x000000000000430a      0x36e /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+                                       0x159d (size before relaxing)
+ .debug_str     0x0000000000004678       0x83 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+                                       0x104a (size before relaxing)
+ .debug_str     0x00000000000046fb      0x171 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+                                       0x1370 (size before relaxing)
+ .debug_str     0x000000000000486c      0x683 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+                                       0x1a88 (size before relaxing)
+ .debug_str     0x0000000000004eef      0x46a /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+                                       0x1785 (size before relaxing)
+ .debug_str     0x0000000000005359       0xf1 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+                                        0x507 (size before relaxing)
+ .debug_str     0x000000000000544a      0x1e5 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+                                       0x1316 (size before relaxing)
+ .debug_str     0x000000000000562f      0x2de platform/libplatform_ns.a(system_nrf9160.o)
+                                        0x579 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x18d4
+ .debug_frame   0x0000000000000000       0x58 app/CMakeFiles/tfm_ns.dir/main_ns.o
+ .debug_frame   0x0000000000000058       0x60 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_frame   0x00000000000000b8       0x30 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+ .debug_frame   0x00000000000000e8       0x20 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+ .debug_frame   0x0000000000000108      0x1c4 app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .debug_frame   0x00000000000002cc       0x80 platform/libplatform_ns.a(uart_stdout.o)
+ .debug_frame   0x000000000000034c      0x208 platform/libplatform_ns.a(Driver_USART.o)
+ .debug_frame   0x0000000000000554      0x148 platform/libplatform_ns.a(nrfx_uarte.o)
+ .debug_frame   0x000000000000069c       0x4c app/libtfm_api_ns.a(tfm_ns_interface.o)
+ .debug_frame   0x00000000000006e8       0xd0 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .debug_frame   0x00000000000007b8       0x84 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+ .debug_frame   0x000000000000083c      0x204 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .debug_frame   0x0000000000000a40      0x21c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .debug_frame   0x0000000000000c5c       0xa4 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+ .debug_frame   0x0000000000000d00      0x134 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .debug_frame   0x0000000000000e34      0x54c /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .debug_frame   0x0000000000001380      0x234 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .debug_frame   0x00000000000015b4       0xb0 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .debug_frame   0x0000000000001664      0x164 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .debug_frame   0x00000000000017c8       0x50 platform/libplatform_ns.a(system_nrf9160.o)
+ .debug_frame   0x0000000000001818       0x28 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000001840       0x2c /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x000000000000186c       0x28 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000001894       0x20 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000000000018b4       0x20 /opt/nordic/ncs/v1.9.1/toolchain/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+
+.debug_loc      0x0000000000000000    0x113ee
+ .debug_loc     0x0000000000000000       0x25 app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_loc     0x0000000000000025       0x3f app/CMakeFiles/tfm_ns.dir/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Config/RTX_Config.o
+ .debug_loc     0x0000000000000064      0x5ae app/CMakeFiles/tfm_ns.dir/os_wrapper_cmsis_rtos_v2.o
+ .debug_loc     0x0000000000000612       0xe8 platform/libplatform_ns.a(uart_stdout.o)
+ .debug_loc     0x00000000000006fa      0xa75 platform/libplatform_ns.a(Driver_USART.o)
+ .debug_loc     0x000000000000116f     0x224e platform/libplatform_ns.a(nrfx_uarte.o)
+ .debug_loc     0x00000000000033bd      0x13d app/libtfm_api_ns.a(tfm_ns_interface.o)
+ .debug_loc     0x00000000000034fa      0x4a1 ns_log/libtfm_ns_log.a(tfm_log_raw.o)
+ .debug_loc     0x000000000000399b      0x2cd /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_system.o)
+ .debug_loc     0x0000000000003c68     0x2a23 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_msgqueue.o)
+ .debug_loc     0x000000000000668b     0x2201 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mempool.o)
+ .debug_loc     0x000000000000888c      0x842 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_memory.o)
+ .debug_loc     0x00000000000090ce      0xbc3 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_mutex.o)
+ .debug_loc     0x0000000000009c91     0x585e /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_thread.o)
+ .debug_loc     0x000000000000f4ef      0xe75 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_kernel.o)
+ .debug_loc     0x0000000000010364       0xd6 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(os_systick.o)
+ .debug_loc     0x000000000001043a      0xf53 /opt/nordic/ncs/v1.9.1/modules/tee/tf-m/tf-m-tests/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a(rtx_timer.o)
+ .debug_loc     0x000000000001138d       0x61 platform/libplatform_ns.a(system_nrf9160.o)
