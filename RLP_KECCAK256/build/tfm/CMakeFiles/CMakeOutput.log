@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.o"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 arm-none-eabi-gcc (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599]

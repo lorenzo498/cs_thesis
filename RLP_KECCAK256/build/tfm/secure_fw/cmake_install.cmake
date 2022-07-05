@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/install")
+  set(CMAKE_INSTALL_PREFIX "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,61 +39,61 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/secure_fw/spm/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/secure_fw/spm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/secure_fw/partitions/lib/sprt/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/secure_fw/partitions/lib/sprt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/secure_fw/partitions/audit_logging/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/secure_fw/partitions/audit_logging/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/secure_fw/partitions/crypto/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/secure_fw/partitions/crypto/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/secure_fw/partitions/initial_attestation/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/secure_fw/partitions/initial_attestation/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/secure_fw/partitions/protected_storage/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/secure_fw/partitions/protected_storage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/secure_fw/partitions/internal_trusted_storage/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/secure_fw/partitions/internal_trusted_storage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/secure_fw/partitions/platform/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/secure_fw/partitions/platform/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/secure_fw/partitions/psa_proxy/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/secure_fw/partitions/psa_proxy/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/secure_fw/partitions/firmware_update/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/secure_fw/partitions/firmware_update/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/secure_fw/partitions/ns_agent/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/secure_fw/partitions/ns_agent/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/secure_fw/partitions/idle_partition/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/secure_fw/partitions/idle_partition/cmake_install.cmake")
 endif()
 

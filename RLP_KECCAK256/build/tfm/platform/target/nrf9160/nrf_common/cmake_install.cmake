@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/install")
+  set(CMAKE_INSTALL_PREFIX "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,13 +39,13 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/install/interface/include/tfm_ioctl_core_api.h")
+   "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/install/interface/include/tfm_ioctl_core_api.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm/install/interface/include" TYPE FILE FILES "/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/core/services/include/tfm_ioctl_core_api.h")
+  file(INSTALL DESTINATION "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm/install/interface/include" TYPE FILE FILES "/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/core/services/include/tfm_ioctl_core_api.h")
 endif()
 

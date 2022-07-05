@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/nrf/subsys/net/cmake_install.cmake")
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/nrf/subsys/dfu/cmake_install.cmake")
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/nrf/subsys/nonsecure/cmake_install.cmake")
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/nrf/subsys/debug/cmake_install.cmake")
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/nrf/subsys/partition_manager/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/nrf/subsys/net/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/nrf/subsys/dfu/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/nrf/subsys/nonsecure/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/nrf/subsys/debug/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/nrf/subsys/partition_manager/cmake_install.cmake")
 
 endif()
 

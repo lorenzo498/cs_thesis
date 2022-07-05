@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/main_project/build/modules/nrfxlib/nrfxlib/nrf_security/src/drivers/nrf_oberon/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device_main/main_project/build/modules/nrfxlib/nrfxlib/nrf_security/src/drivers/nrf_oberon/cmake_install.cmake")
 endif()
 

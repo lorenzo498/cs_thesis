@@ -490,7 +490,7 @@ rule C_COMPILER__tfm_s_scatter_MinSizeRel
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /opt/nordic/ncs/v1.9.1/toolchain/Cellar/cmake/3.21.1/bin/cmake --regenerate-during-build -S/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m -B/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/tfm
+  command = /opt/nordic/ncs/v1.9.1/toolchain/Cellar/cmake/3.21.1/bin/cmake --regenerate-during-build -S/opt/nordic/ncs/v1.9.1/modules/tee/tf-m/trusted-firmware-m -B/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/tfm
   description = Re-running CMake...
   generator = 1
 

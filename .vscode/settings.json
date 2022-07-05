@@ -1,6 +1,6 @@
 {
     "nrf-connect.applications": [
-        "${workspaceFolder}/main_project"
+        "${workspaceFolder}/RLP_KECCAK256"
     ],
     "nrf-connect.toolchain.path": "${nrf-connect.toolchain:1.9.1}",
     "files.associations": {

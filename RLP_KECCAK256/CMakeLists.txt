@@ -16,6 +16,8 @@ zephyr_library_sources(src/rlp_serializer.c)
 zephyr_library_sources(src/rlp_serializer.h)
 zephyr_library_sources(src/keccak256.c)
 zephyr_library_sources(src/keccak256.h)
+zephyr_library_sources(src/ecdsa.c)
+zephyr_library_sources(src/ecdsa.h)
 
         cmake_minimum_required(VERSION 3.9)
 project(RLP C)

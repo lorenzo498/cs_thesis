@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/trusted-firmware-m/CMakeFiles/tfm"
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/trusted-firmware-m/CMakeFiles/tfm"
 		},
 		{
-			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/trusted-firmware-m/CMakeFiles/tfm.rule"
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/trusted-firmware-m/CMakeFiles/tfm.rule"
 		},
 		{
-			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/trusted-firmware-m/CMakeFiles/tfm-complete.rule"
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/trusted-firmware-m/CMakeFiles/tfm-complete.rule"
 		},
 		{
-			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-build.rule"
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-build.rule"
 		},
 		{
-			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-configure.rule"
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-configure.rule"
 		},
 		{
-			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-download.rule"
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-download.rule"
 		},
 		{
-			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-install.rule"
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-install.rule"
 		},
 		{
-			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-mkdir.rule"
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-mkdir.rule"
 		},
 		{
-			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-patch.rule"
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-patch.rule"
 		},
 		{
-			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-update.rule"
+			"file" : "/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-update.rule"
 		}
 	],
 	"target" : 

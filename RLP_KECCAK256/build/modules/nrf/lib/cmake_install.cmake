@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/nrf/lib/bin/cmake_install.cmake")
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/nrf/lib/nrf_modem_lib/cmake_install.cmake")
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/nrf/lib/flash_patch/cmake_install.cmake")
-  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/modules/nrf/lib/fatal_error/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/nrf/lib/bin/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/nrf/lib/nrf_modem_lib/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/nrf/lib/flash_patch/cmake_install.cmake")
+  include("/Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/modules/nrf/lib/fatal_error/cmake_install.cmake")
 
 endif()
 

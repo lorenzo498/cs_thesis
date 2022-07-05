@@ -14,7 +14,7 @@ config:
   board_dir: /opt/nordic/ncs/v1.9.1/zephyr/boards/arm/nrf9160dk_nrf9160
   # Build outputs:
   elf_file: zephyr.elf
-  hex_file: /Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP/build/zephyr/merged.hex
+  hex_file: /Users/lorenzobrancaleoni/Progetti/Progetto_ESP/nrf9160_device/RLP_KECCAK256/build/zephyr/merged.hex
   bin_file: zephyr.bin
   # Host tools:
   gdb: /opt/nordic/ncs/v1.9.1/toolchain/bin/arm-none-eabi-gdb
